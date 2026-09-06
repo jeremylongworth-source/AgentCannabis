@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Cannabis Quality Complaint"
+  short_description: "Triage cannabis quality complaint by severity, evidence completeness, source freshness, and responsible reviewer path"
+  default_prompt: "Use $triage-cannabis-quality-complaint to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

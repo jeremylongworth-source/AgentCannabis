@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Root Zone Trend"
+  short_description: "Analyze root zone trend from supplied records, preserving original observations, units, uncertainty, and conflicting..."
+  default_prompt: "Use $analyze-root-zone-trend to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

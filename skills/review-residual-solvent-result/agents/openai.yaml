@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Residual Solvent Result"
+  short_description: "Review residual solvent result for completeness, traceability, conflicts, and required human follow-up without changi..."
+  default_prompt: "Use $review-residual-solvent-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quality Control Specialist"
+  short_description: "Coordinate member workflows for quality control specialist; review assistance only"
+  default_prompt: "Use $quality-control-specialist to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

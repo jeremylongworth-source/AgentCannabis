@@ -1,0 +1,22 @@
+name: Evaluation gap
+description: Report missing, weak, or failed AgentCannabis evaluation coverage.
+title: "Evaluation gap: "
+labels: ["evaluation"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: Describe the realistic or adversarial case.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-boundary
+    attributes:
+      label: Expected boundary or behavior
+      description: What should the skill do or refuse?
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+      description: Paste actual output or describe the missing evaluation evidence.

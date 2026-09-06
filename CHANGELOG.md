@@ -2,6 +2,19 @@
 
 All notable changes to AgentCannabis are recorded here.
 
+## v1.0.1 - 2026-09-06
+
+### Changed
+
+- Reframed AgentCannabis as a portable AI Agent Skills repository, with GitHub Copilot documented as one supported distribution path.
+- Added `agents/openai.yaml` host metadata to all 251 installable skill folders.
+- Added peer-style validation, GitHub workflow, source metadata audit, pull request template, issue templates, `.gitattributes`, setup docs, and skillset README coverage.
+
+### Validation
+
+- `.\scripts\validate-all.ps1` passes.
+- Bundled `quick_validate.py` passes across 251 skill folders.
+- `gh skill publish D:\AgentCannabis --dry-run` passes with only the tag-protection advisory.
 ## v1.0.0 - 2026-09-05
 
 ### Added
@@ -14,11 +27,15 @@ All notable changes to AgentCannabis are recorded here.
 - Added structural repository validator and Copilot installation helper.
 - Added federal and extension source registers with currentness limitations.
 
+
 ### Validation
 
 - Reference structural validation passes with `python scripts/validate_repository.py --stage reference`.
 - Review-gate unit tests pass with `python -m unittest discover -s tests -v`.
 - GitHub skill publish dry-run passes for the reference-stage repository.
 - Local `gh skill install --from-local` succeeds for the five reference skills.
+
+
+
 
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Perform Production Root Cause Analysis"
+  short_description: "Perform a documented review of production root cause analysis using supplied facts, root-cause evidence, and CAPA bou..."
+  default_prompt: "Use $perform-production-root-cause-analysis to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,22 @@
+name: Source or currentness issue
+description: Report stale, incomplete, inaccessible, or incorrect source evidence.
+title: "Source issue: "
+labels: ["sources"]
+body:
+  - type: input
+    id: source-id
+    attributes:
+      label: Source ID
+      description: Source registry ID, if known.
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: Describe the currentness, access, citation, jurisdiction, or targeted-claim problem.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to official sources and include dates inspected.

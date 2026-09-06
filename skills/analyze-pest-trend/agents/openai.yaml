@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Pest Trend"
+  short_description: "Analyze pest trend from supplied records, preserving original observations, units, uncertainty, and conflicting evidence"
+  default_prompt: "Use $analyze-pest-trend to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

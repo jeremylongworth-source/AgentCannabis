@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Lot Release Readiness"
+  short_description: "Assess whether a lot has a complete quality evidence package for an authorized human release decision"
+  default_prompt: "Use $assess-lot-release-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

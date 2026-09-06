@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Processing Hazard"
+  short_description: "Classify a processing review request and determine whether qualified technical escalation is required"
+  default_prompt: "Use $classify-processing-hazard to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

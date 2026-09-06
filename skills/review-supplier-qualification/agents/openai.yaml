@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Supplier Qualification"
+  short_description: "Review supplier qualification for completeness, traceability, conflicts, and required human follow-up without changin..."
+  default_prompt: "Use $review-supplier-qualification to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

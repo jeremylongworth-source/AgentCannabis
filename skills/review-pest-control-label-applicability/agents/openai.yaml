@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Pest Control Label Applicability"
+  short_description: "Review pest control label applicability for completeness, traceability, conflicts, and required human follow-up witho..."
+  default_prompt: "Use $review-pest-control-label-applicability to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

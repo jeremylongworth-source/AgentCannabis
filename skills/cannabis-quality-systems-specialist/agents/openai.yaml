@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cannabis Quality Systems Specialist"
+  short_description: "Coordinate member workflows for cannabis quality systems specialist; review assistance only"
+  default_prompt: "Use $cannabis-quality-systems-specialist to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

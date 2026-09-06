@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Crop Space Allocation"
+  short_description: "Plan crop space allocation as a documented review workflow using existing approved criteria and unresolved-evidence h..."
+  default_prompt: "Use $plan-crop-space-allocation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

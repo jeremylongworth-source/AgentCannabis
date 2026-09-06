@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Environment Control Failure"
+  short_description: "Identify environment control failure using supplied evidence, current-source checks, and the repository's review-only..."
+  default_prompt: "Use $identify-environment-control-failure to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

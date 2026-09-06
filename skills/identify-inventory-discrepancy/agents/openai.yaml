@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Inventory Discrepancy"
+  short_description: "Identify inventory discrepancy using supplied evidence, current-source checks, and the repository's review-only autho..."
+  default_prompt: "Use $identify-inventory-discrepancy to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

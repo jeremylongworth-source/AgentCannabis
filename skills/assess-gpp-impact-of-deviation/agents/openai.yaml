@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess GPP Impact Of Deviation"
+  short_description: "Assess gpp impact of deviation against supplied criteria and evidence, leaving regulated decisions with the responsib..."
+  default_prompt: "Use $assess-gpp-impact-of-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

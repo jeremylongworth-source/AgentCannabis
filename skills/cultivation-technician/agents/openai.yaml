@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cultivation Technician"
+  short_description: "Coordinate member workflows for cultivation technician; review assistance only"
+  default_prompt: "Use $cultivation-technician to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

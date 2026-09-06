@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Airflow Deviation"
+  short_description: "Analyze airflow deviation from supplied records, preserving original observations, units, uncertainty, and conflictin..."
+  default_prompt: "Use $analyze-airflow-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

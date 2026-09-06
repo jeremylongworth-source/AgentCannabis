@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Pest Observation"
+  short_description: "Classify pest observation from supplied records and route unresolved authority, quality, hazard, or jurisdiction ques..."
+  default_prompt: "Use $classify-pest-observation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

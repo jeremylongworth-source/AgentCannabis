@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit SOP Execution Record"
+  short_description: "Audit sop execution record for traceability, completeness, source freshness, and unresolved authority or evidence gaps"
+  default_prompt: "Use $audit-sop-execution-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

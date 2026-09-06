@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Cannabis Compliance Record"
+  short_description: "Audit cannabis compliance record for traceability, completeness, source freshness, and unresolved authority or eviden..."
+  default_prompt: "Use $audit-cannabis-compliance-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

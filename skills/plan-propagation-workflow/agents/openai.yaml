@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Propagation Workflow"
+  short_description: "Plan propagation workflow as a documented review workflow using existing approved criteria and unresolved-evidence ha..."
+  default_prompt: "Use $plan-propagation-workflow to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

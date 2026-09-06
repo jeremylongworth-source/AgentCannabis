@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Processing Change"
+  short_description: "Assess processing change against supplied criteria and evidence, leaving regulated decisions with the responsible human"
+  default_prompt: "Use $assess-processing-change to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

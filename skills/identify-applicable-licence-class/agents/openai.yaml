@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Applicable Licence Class"
+  short_description: "Identify applicable licence class using supplied evidence, current-source checks, and the repository's review-only au..."
+  default_prompt: "Use $identify-applicable-licence-class to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Ingredient Material Qualification"
+  short_description: "Review ingredient material qualification for completeness, traceability, conflicts, and required human follow-up with..."
+  default_prompt: "Use $review-ingredient-material-qualification to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

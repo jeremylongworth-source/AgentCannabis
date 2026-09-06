@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Product Hold Requirement"
+  short_description: "Assess product hold requirement against supplied criteria and evidence, leaving regulated decisions with the responsi..."
+  default_prompt: "Use $assess-product-hold-requirement to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

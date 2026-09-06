@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Site Change Governance"
+  short_description: "Assess site change governance against supplied criteria and evidence, leaving regulated decisions with the responsibl..."
+  default_prompt: "Use $assess-site-change-governance to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

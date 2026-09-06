@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Humidity Deviation"
+  short_description: "Analyze humidity deviation from supplied records, preserving original observations, units, uncertainty, and conflicti..."
+  default_prompt: "Use $analyze-humidity-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

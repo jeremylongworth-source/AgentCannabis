@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Post Harvest Microbial Risk"
+  short_description: "Assess post harvest microbial risk against supplied criteria and evidence, leaving regulated decisions with the respo..."
+  default_prompt: "Use $assess-post-harvest-microbial-risk to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

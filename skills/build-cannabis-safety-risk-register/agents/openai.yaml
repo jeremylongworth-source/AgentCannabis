@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Cannabis Safety Risk Register"
+  short_description: "Build an evidence-backed cannabis safety risk register from existing approved records, criteria, and reviewer assignm..."
+  default_prompt: "Use $build-cannabis-safety-risk-register to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

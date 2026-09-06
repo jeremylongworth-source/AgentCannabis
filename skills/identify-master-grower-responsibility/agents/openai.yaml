@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Master Grower Responsibility"
+  short_description: "Identify master grower responsibility using supplied evidence, current-source checks, and the repository's review-onl..."
+  default_prompt: "Use $identify-master-grower-responsibility to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

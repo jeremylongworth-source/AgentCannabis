@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Heavy Metal Result"
+  short_description: "Review heavy metal result for completeness, traceability, conflicts, and required human follow-up without changing th..."
+  default_prompt: "Use $review-heavy-metal-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

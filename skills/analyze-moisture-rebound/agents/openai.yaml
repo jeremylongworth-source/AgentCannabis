@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Moisture Rebound"
+  short_description: "Analyze moisture rebound from supplied records, preserving original observations, units, uncertainty, and conflicting..."
+  default_prompt: "Use $analyze-moisture-rebound to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Cannabis Destruction Record"
+  short_description: "Review cannabis destruction record for completeness, traceability, conflicts, and required human follow-up without ch..."
+  default_prompt: "Use $review-cannabis-destruction-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

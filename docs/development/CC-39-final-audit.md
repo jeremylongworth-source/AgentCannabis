@@ -7,7 +7,7 @@ Status: `V1_READY`.
 - Local repository: `D:\AgentCannabis`
 - GitHub repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Default branch: `main`
-- Public release tag used for install verification: `v1.0.0`
+- Public release tags used for install verification: `v1.0.0`, `v1.0.1`
 - Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
 
 ## Roadmap result
@@ -51,6 +51,7 @@ Install validation passed:
 gh skill install --from-local checked 18 professional wrappers: PASS
 scripts/install_skillset.ps1 -WhatIf checked 18 manifests: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.0 checked 18 professional wrappers: PASS
+remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.1 checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at main checked 18 professional wrappers: PASS
 ```
 
@@ -90,4 +91,6 @@ The source registry preserves currentness limits. Users must reverify current pr
 ## Decision
 
 Final decision: `V1_READY`.
+
+
 

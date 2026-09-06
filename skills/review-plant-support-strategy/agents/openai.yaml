@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Plant Support Strategy"
+  short_description: "Review plant support strategy for completeness, traceability, conflicts, and required human follow-up without changin..."
+  default_prompt: "Use $review-plant-support-strategy to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Lot Number Traceability"
+  short_description: "Verify lot number traceability by checking source, licence, role, record, and provenance evidence without creating ap..."
+  default_prompt: "Use $verify-lot-number-traceability to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

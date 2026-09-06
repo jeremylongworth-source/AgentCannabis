@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document SOP Deviation"
+  short_description: "Document sop deviation with source records, owner, timing, evidence gaps, and required human review"
+  default_prompt: "Use $document-sop-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

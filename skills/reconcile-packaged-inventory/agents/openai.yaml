@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile Packaged Inventory"
+  short_description: "Reconcile packaged inventory from same-basis records, preserving discrepancies and avoiding silent adjustments"
+  default_prompt: "Use $reconcile-packaged-inventory to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

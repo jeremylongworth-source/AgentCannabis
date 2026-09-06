@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cannabis Processing Technician"
+  short_description: "Coordinate member workflows for cannabis processing technician; review assistance only"
+  default_prompt: "Use $cannabis-processing-technician to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Environmental Trend"
+  short_description: "Analyze environmental trend from supplied records, preserving original observations, units, uncertainty, and conflict..."
+  default_prompt: "Use $analyze-environmental-trend to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

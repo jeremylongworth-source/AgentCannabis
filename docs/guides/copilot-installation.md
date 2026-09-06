@@ -1,6 +1,6 @@
 # Install AgentCannabis for GitHub Copilot
 
-Install one professional skillset to give Copilot its role-specific workflow and bundled member references. Each skillset is a self-contained skill under `skills/<skillset-name>/`; its JSON manifest in `skillsets/` describes the composition. Atomic skills can also be installed separately.
+Install one professional skillset to give Copilot its role-specific workflow and bundled member references. AgentCannabis skills are portable Agent Skills; this page documents the GitHub Copilot distribution path. Each skillset is a self-contained skill under `skills/<skillset-name>/`; its JSON manifest in `skillsets/` describes the composition. Atomic skills can also be installed separately.
 
 These instructions use `cultivation-technician` as an example. Choose another name from the [skillset manifests](../../skillsets/). Development examples select `main` explicitly. For a release, replace `TAG` with an actual tag from [GitHub Releases](https://github.com/jeremylongworth-source/AgentCannabis/releases).
 
@@ -111,3 +111,4 @@ Confirm the host recognizes the skill, can read the bundled references, and keep
 - **Manifest validation fails:** use the repository's validated manifest and matching skill tree. A wrapper and its atomic member names must exist before the helper will run.
 
 For a deliberate update, preview the new version and reinstall the selected skill at that version. `gh skill update` uses metadata recorded during installation; skills installed with `--pin` are skipped. Reassess regulatory source dates and the relevant workflow scenarios when upgrading. [GitHub skill management documentation](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/add-skills)
+

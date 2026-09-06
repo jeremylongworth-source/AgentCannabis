@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Post Harvest Handling Deviation"
+  short_description: "Investigate post harvest handling deviation by organizing known facts, gaps, contradictory records, and responsible h..."
+  default_prompt: "Use $investigate-post-harvest-handling-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

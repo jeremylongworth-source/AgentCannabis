@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Root Zone Condition"
+  short_description: "Review root zone condition for completeness, traceability, conflicts, and required human follow-up without changing t..."
+  default_prompt: "Use $review-root-zone-condition to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

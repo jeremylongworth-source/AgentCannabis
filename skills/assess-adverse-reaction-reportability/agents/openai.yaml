@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Adverse Reaction Reportability"
+  short_description: "Assess adverse reaction reportability against supplied criteria and evidence, leaving regulated decisions with the re..."
+  default_prompt: "Use $assess-adverse-reaction-reportability to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

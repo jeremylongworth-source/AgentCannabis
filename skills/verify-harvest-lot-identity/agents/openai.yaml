@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Harvest Lot Identity"
+  short_description: "Verify harvest lot identity by checking source, licence, role, record, and provenance evidence without creating approval"
+  default_prompt: "Use $verify-harvest-lot-identity to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

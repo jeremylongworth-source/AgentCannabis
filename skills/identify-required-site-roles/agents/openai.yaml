@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Required Site Roles"
+  short_description: "Identify required site roles using supplied evidence, current-source checks, and the repository's review-only authori..."
+  default_prompt: "Use $identify-required-site-roles to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

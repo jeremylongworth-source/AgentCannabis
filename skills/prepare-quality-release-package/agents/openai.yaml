@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Quality Release Package"
+  short_description: "Prepare quality release package as a review package with indexed evidence, unresolved issues, and pending authorized-..."
+  default_prompt: "Use $prepare-quality-release-package to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

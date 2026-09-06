@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Cannabis SOP"
+  short_description: "Draft cannabis sop using supplied approved requirements, blank approval fields, and explicit unresolved evidence"
+  default_prompt: "Use $draft-cannabis-sop to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Irrigation Monitoring Plan"
+  short_description: "Build an evidence-backed irrigation monitoring plan from existing approved records, criteria, and reviewer assignments"
+  default_prompt: "Use $build-irrigation-monitoring-plan to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

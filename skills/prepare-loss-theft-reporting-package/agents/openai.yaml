@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Loss Theft Reporting Package"
+  short_description: "Prepare loss theft reporting package as a review package with indexed evidence, unresolved issues, and pending author..."
+  default_prompt: "Use $prepare-loss-theft-reporting-package to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

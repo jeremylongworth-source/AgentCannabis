@@ -1,0 +1,28 @@
+name: Source Link Metadata Audit
+
+on:
+  schedule:
+    - cron: "23 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-links:
+    name: Source link metadata audit
+    runs-on: windows-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Check source registry metadata
+        shell: pwsh
+        run: python scripts\validate-source-links.py --repo-root .

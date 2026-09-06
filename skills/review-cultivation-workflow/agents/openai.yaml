@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Cultivation Workflow"
+  short_description: "Review cultivation workflow for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-cultivation-workflow to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

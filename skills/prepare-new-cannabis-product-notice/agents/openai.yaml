@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare New Cannabis Product Notice"
+  short_description: "Prepare new cannabis product notice as a review package with indexed evidence, unresolved issues, and pending authori..."
+  default_prompt: "Use $prepare-new-cannabis-product-notice to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

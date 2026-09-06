@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Material Handling Control"
+  short_description: "Review material handling control for completeness, traceability, conflicts, and required human follow-up without chan..."
+  default_prompt: "Use $review-material-handling-control to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

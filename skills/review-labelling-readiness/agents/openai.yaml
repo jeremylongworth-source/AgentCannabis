@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Labelling Readiness"
+  short_description: "Review labelling readiness for completeness, traceability, conflicts, and required human follow-up without changing t..."
+  default_prompt: "Use $review-labelling-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

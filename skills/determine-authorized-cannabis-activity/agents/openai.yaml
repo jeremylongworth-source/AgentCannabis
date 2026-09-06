@@ -1,0 +1,4 @@
+interface:
+  display_name: "Determine Authorized Cannabis Activity"
+  short_description: "Compare a described activity with documented licence authority and current primary requirements"
+  default_prompt: "Use $determine-authorized-cannabis-activity to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

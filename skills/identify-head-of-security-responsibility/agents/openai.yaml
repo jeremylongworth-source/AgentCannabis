@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Head Of Security Responsibility"
+  short_description: "Identify head of security responsibility using supplied evidence, current-source checks, and the repository's review-..."
+  default_prompt: "Use $identify-head-of-security-responsibility to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

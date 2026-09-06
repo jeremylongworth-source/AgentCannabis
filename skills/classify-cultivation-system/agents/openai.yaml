@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Cultivation System"
+  short_description: "Classify cultivation system from supplied records and route unresolved authority, quality, hazard, or jurisdiction qu..."
+  default_prompt: "Use $classify-cultivation-system to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

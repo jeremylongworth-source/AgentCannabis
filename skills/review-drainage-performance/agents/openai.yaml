@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Drainage Performance"
+  short_description: "Review drainage performance for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-drainage-performance to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

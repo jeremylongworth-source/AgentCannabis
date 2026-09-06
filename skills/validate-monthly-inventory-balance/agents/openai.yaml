@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Monthly Inventory Balance"
+  short_description: "Review monthly inventory balance with supplied evidence and explicit human-review boundaries"
+  default_prompt: "Use $validate-monthly-inventory-balance to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

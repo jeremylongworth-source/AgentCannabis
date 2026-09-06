@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Ingredient Compliance"
+  short_description: "Review ingredient compliance for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-ingredient-compliance to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

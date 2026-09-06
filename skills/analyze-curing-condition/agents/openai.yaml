@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Curing Condition"
+  short_description: "Analyze curing condition from supplied records, preserving original observations, units, uncertainty, and conflicting..."
+  default_prompt: "Use $analyze-curing-condition to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Serious Adverse Reaction Report"
+  short_description: "Prepare serious adverse reaction report as a review package with indexed evidence, unresolved issues, and pending aut..."
+  default_prompt: "Use $prepare-serious-adverse-reaction-report to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

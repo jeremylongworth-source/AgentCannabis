@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Chemical Contaminant Result"
+  short_description: "Review chemical contaminant result for completeness, traceability, conflicts, and required human follow-up without ch..."
+  default_prompt: "Use $review-chemical-contaminant-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interpret Cannabinoid Test Result"
+  short_description: "Interpret cannabinoid test result against supplied method, specification, unit, and source evidence without overridin..."
+  default_prompt: "Use $interpret-cannabinoid-test-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Forecast Crop Output"
+  short_description: "Forecast crop output only from supplied historical records and assumptions, with uncertainty and no production optimi..."
+  default_prompt: "Use $forecast-crop-output to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

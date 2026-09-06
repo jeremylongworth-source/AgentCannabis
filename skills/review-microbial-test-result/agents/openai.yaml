@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Microbial Test Result"
+  short_description: "Review microbial test result for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-microbial-test-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

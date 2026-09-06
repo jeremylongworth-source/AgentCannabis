@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Fertigation Strategy"
+  short_description: "Review fertigation strategy for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-fertigation-strategy to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

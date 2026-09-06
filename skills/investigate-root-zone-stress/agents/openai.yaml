@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Root Zone Stress"
+  short_description: "Investigate root zone stress by organizing known facts, gaps, contradictory records, and responsible human follow-up"
+  default_prompt: "Use $investigate-root-zone-stress to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Personnel Training Record"
+  short_description: "Verify personnel training record by checking source, licence, role, record, and provenance evidence without creating..."
+  default_prompt: "Use $verify-personnel-training-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

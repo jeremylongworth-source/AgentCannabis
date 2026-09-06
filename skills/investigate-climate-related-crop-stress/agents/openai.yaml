@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Climate Related Crop Stress"
+  short_description: "Investigate climate related crop stress by organizing known facts, gaps, contradictory records, and responsible human..."
+  default_prompt: "Use $investigate-climate-related-crop-stress to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

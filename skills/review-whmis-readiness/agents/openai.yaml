@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review WHMIS Readiness"
+  short_description: "Review whmis readiness for completeness, traceability, conflicts, and required human follow-up without changing the u..."
+  default_prompt: "Use $review-whmis-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Propagation Loss"
+  short_description: "Analyze propagation loss from supplied records, preserving original observations, units, uncertainty, and conflicting..."
+  default_prompt: "Use $analyze-propagation-loss to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Drying Monitoring Plan"
+  short_description: "Build an evidence-backed drying monitoring plan from existing approved records, criteria, and reviewer assignments"
+  default_prompt: "Use $build-drying-monitoring-plan to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review CTLS Report Readiness"
+  short_description: "Review ctls report readiness for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-ctls-report-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

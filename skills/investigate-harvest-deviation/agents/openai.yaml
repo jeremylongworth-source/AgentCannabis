@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Harvest Deviation"
+  short_description: "Investigate harvest deviation by organizing known facts, gaps, contradictory records, and responsible human follow-up"
+  default_prompt: "Use $investigate-harvest-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

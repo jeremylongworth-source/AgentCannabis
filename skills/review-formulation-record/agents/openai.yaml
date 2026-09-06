@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Formulation Record"
+  short_description: "Review formulation record for completeness, traceability, conflicts, and required human follow-up without changing th..."
+  default_prompt: "Use $review-formulation-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Water Quality Record"
+  short_description: "Assess water quality record against supplied criteria and evidence, leaving regulated decisions with the responsible..."
+  default_prompt: "Use $assess-water-quality-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

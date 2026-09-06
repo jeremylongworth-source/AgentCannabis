@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Crop Health Event"
+  short_description: "Investigate crop health event by organizing known facts, gaps, contradictory records, and responsible human follow-up"
+  default_prompt: "Use $investigate-crop-health-event to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

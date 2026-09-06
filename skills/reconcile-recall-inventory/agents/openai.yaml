@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reconcile Recall Inventory"
+  short_description: "Reconcile recall inventory from same-basis records, preserving discrepancies and avoiding silent adjustments"
+  default_prompt: "Use $reconcile-recall-inventory to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

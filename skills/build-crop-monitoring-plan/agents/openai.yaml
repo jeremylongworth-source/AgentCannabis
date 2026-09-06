@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Crop Monitoring Plan"
+  short_description: "Prepare an auditable observation-record plan from existing approved site procedures"
+  default_prompt: "Use $build-crop-monitoring-plan to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

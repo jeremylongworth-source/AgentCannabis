@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Cultivar Identification"
+  short_description: "Review cultivar identification for completeness, traceability, conflicts, and required human follow-up without changi..."
+  default_prompt: "Use $review-cultivar-identification to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Harvest Record"
+  short_description: "Review harvest record for completeness, traceability, conflicts, and required human follow-up without changing the un..."
+  default_prompt: "Use $review-harvest-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

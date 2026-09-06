@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Cannabinoid Uniformity"
+  short_description: "Review cannabinoid uniformity for completeness, traceability, conflicts, and required human follow-up without changin..."
+  default_prompt: "Use $review-cannabinoid-uniformity to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

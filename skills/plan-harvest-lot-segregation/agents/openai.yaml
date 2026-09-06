@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Harvest Lot Segregation"
+  short_description: "Plan harvest lot segregation as a documented review workflow using existing approved criteria and unresolved-evidence..."
+  default_prompt: "Use $plan-harvest-lot-segregation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

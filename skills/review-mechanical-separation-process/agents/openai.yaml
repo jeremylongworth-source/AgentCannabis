@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Mechanical Separation Process"
+  short_description: "Review mechanical separation process for completeness, traceability, conflicts, and required human follow-up without..."
+  default_prompt: "Use $review-mechanical-separation-process to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

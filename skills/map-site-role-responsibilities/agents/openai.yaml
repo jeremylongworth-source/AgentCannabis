@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Site Role Responsibilities"
+  short_description: "Map site role responsibilities across records, roles, lots, areas, and evidence sources while preserving gaps and con..."
+  default_prompt: "Use $map-site-role-responsibilities to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Processing Deviation Summary"
+  short_description: "Prepare processing deviation summary as a review package with indexed evidence, unresolved issues, and pending author..."
+  default_prompt: "Use $prepare-processing-deviation-summary to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

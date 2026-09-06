@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Preventive Control Plan"
+  short_description: "Verify preventive control plan by checking source, licence, role, record, and provenance evidence without creating ap..."
+  default_prompt: "Use $verify-preventive-control-plan to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

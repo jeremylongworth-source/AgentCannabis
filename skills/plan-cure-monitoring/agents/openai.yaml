@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Cure Monitoring"
+  short_description: "Plan cure monitoring as a documented review workflow using existing approved criteria and unresolved-evidence handling"
+  default_prompt: "Use $plan-cure-monitoring to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

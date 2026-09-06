@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Cannabis Regulatory Source Freshness"
+  short_description: "Verify cannabis regulatory source freshness by checking source, licence, role, record, and provenance evidence withou..."
+  default_prompt: "Use $verify-cannabis-regulatory-source-freshness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

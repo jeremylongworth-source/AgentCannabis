@@ -1,0 +1,27 @@
+name: Skill request
+description: Propose a new or revised AgentCannabis skill or skillset.
+title: "Skill request: "
+labels: ["skill-request"]
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What should the skill help an agent do?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and sources
+      description: List source records, jurisdictions, currentness limits, and sample inputs.
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Safety and approval boundaries
+      description: Identify legal, quality, engineering, pesticide, CTLS/CRA, release, or hazardous-process limits.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Proposed validation
+      description: What scenario, evaluation, or command should prove the change?

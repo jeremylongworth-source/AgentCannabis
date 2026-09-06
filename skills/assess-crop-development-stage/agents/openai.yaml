@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Crop Development Stage"
+  short_description: "Assess crop development stage against supplied criteria and evidence, leaving regulated decisions with the responsibl..."
+  default_prompt: "Use $assess-crop-development-stage to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

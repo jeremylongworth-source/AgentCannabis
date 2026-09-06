@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Cannabis Inventory Transformation"
+  short_description: "Map cannabis inventory transformation across records, roles, lots, areas, and evidence sources while preserving gaps..."
+  default_prompt: "Use $map-cannabis-inventory-transformation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

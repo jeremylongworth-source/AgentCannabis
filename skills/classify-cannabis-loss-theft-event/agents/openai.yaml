@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Cannabis Loss Theft Event"
+  short_description: "Classify cannabis loss theft event from supplied records and route unresolved authority, quality, hazard, or jurisdic..."
+  default_prompt: "Use $classify-cannabis-loss-theft-event to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

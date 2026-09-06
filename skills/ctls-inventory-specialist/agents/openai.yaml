@@ -1,0 +1,4 @@
+interface:
+  display_name: "CTLS Inventory Specialist"
+  short_description: "Coordinate member workflows for CTLS and inventory specialist; review assistance only"
+  default_prompt: "Use $ctls-inventory-specialist to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

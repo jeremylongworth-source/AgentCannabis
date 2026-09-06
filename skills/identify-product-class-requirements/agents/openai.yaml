@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Product Class Requirements"
+  short_description: "Identify product class requirements using supplied evidence, current-source checks, and the repository's review-only..."
+  default_prompt: "Use $identify-product-class-requirements to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Post Harvest Material Flow"
+  short_description: "Plan post harvest material flow as a documented review workflow using existing approved criteria and unresolved-evide..."
+  default_prompt: "Use $plan-post-harvest-material-flow to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

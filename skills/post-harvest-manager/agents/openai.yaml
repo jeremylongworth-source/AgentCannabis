@@ -1,0 +1,4 @@
+interface:
+  display_name: "Post Harvest Manager"
+  short_description: "Coordinate member workflows for post-harvest manager; review assistance only"
+  default_prompt: "Use $post-harvest-manager to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

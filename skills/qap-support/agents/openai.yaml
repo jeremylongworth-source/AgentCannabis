@@ -1,0 +1,4 @@
+interface:
+  display_name: "QAP Support"
+  short_description: "Coordinate member workflows for QAP support; review assistance only"
+  default_prompt: "Use $qap-support to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

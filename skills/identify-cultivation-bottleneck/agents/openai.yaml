@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Cultivation Bottleneck"
+  short_description: "Identify cultivation bottleneck using supplied evidence, current-source checks, and the repository's review-only auth..."
+  default_prompt: "Use $identify-cultivation-bottleneck to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

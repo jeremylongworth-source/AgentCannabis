@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Disease Symptom"
+  short_description: "Classify disease symptom from supplied records and route unresolved authority, quality, hazard, or jurisdiction quest..."
+  default_prompt: "Use $classify-disease-symptom to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

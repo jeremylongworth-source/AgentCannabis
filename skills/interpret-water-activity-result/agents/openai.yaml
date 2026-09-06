@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interpret Water Activity Result"
+  short_description: "Interpret water activity result against supplied method, specification, unit, and source evidence without overriding..."
+  default_prompt: "Use $interpret-water-activity-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

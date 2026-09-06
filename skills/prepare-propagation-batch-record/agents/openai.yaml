@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Propagation Batch Record"
+  short_description: "Prepare propagation batch record as a review package with indexed evidence, unresolved issues, and pending authorized..."
+  default_prompt: "Use $prepare-propagation-batch-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

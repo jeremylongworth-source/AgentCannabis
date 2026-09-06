@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Propagation Readiness"
+  short_description: "Review propagation readiness for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-propagation-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

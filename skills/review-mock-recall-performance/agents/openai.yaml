@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Mock Recall Performance"
+  short_description: "Review mock recall performance for completeness, traceability, conflicts, and required human follow-up without changi..."
+  default_prompt: "Use $review-mock-recall-performance to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

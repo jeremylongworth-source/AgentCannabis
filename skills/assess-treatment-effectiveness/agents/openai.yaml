@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Treatment Effectiveness"
+  short_description: "Assess treatment effectiveness against supplied criteria and evidence, leaving regulated decisions with the responsib..."
+  default_prompt: "Use $assess-treatment-effectiveness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

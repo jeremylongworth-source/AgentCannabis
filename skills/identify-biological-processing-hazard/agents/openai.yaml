@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Biological Processing Hazard"
+  short_description: "Identify biological processing hazard using supplied evidence, current-source checks, and the repository's review-onl..."
+  default_prompt: "Use $identify-biological-processing-hazard to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

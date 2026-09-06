@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Processing Licence Authority"
+  short_description: "Verify processing licence authority by checking source, licence, role, record, and provenance evidence without creati..."
+  default_prompt: "Use $verify-processing-licence-authority to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

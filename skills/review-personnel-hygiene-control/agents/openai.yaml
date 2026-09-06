@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Personnel Hygiene Control"
+  short_description: "Review personnel hygiene control for completeness, traceability, conflicts, and required human follow-up without chan..."
+  default_prompt: "Use $review-personnel-hygiene-control to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Clone Establishment"
+  short_description: "Assess clone establishment against supplied criteria and evidence, leaving regulated decisions with the responsible h..."
+  default_prompt: "Use $assess-clone-establishment to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

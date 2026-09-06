@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cannabis Compliance Specialist"
+  short_description: "Coordinate member workflows for cannabis compliance specialist; review assistance only"
+  default_prompt: "Use $cannabis-compliance-specialist to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -197,6 +197,26 @@ def validate_links(path: Path, body: str) -> None:
             fail(f"{path.relative_to(ROOT)} has broken local link: {target}")
 
 
+
+def validate_agent_metadata(name: str, skill_dir: Path) -> None:
+    path = skill_dir / "agents" / "openai.yaml"
+    if not path.is_file():
+        fail(f"{name} missing agents/openai.yaml")
+    text = path.read_text(encoding="utf-8")
+    required_lines = {
+        "interface:",
+        "  display_name:",
+        "  short_description:",
+        "  default_prompt:",
+    }
+    for marker in required_lines:
+        if marker not in text:
+            fail(f"{name} agents/openai.yaml missing {marker.strip()}")
+    if f"${name}" not in text:
+        fail(f"{name} default_prompt must explicitly mention ${name}")
+    if "dependencies:" in text:
+        fail(f"{name} should not declare host-specific tool dependencies")
+
 def validate_skill(name: str, *, expected_kind: str = "atomic") -> None:
     path = ROOT / "skills" / name / "SKILL.md"
     if not path.is_file():
@@ -222,6 +242,7 @@ def validate_skill(name: str, *, expected_kind: str = "atomic") -> None:
     if missing_sections:
         fail(f"{name} missing sections: {missing_sections}")
     validate_links(path, body)
+    validate_agent_metadata(name, path.parent)
     refs = path.parent / "references"
     if not (refs / "review-contract.md").is_file():
         fail(f"{name} missing review contract")
@@ -286,3 +307,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

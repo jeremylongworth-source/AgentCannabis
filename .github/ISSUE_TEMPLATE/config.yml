@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security or safety-sensitive report
+    url: https://github.com/jeremylongworth-source/AgentCannabis/security/advisories/new
+    about: Report private security issues, hidden instructions, unsafe operational content, or sensitive records.

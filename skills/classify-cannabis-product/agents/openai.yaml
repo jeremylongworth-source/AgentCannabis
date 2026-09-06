@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Cannabis Product"
+  short_description: "Classify cannabis product from supplied records and route unresolved authority, quality, hazard, or jurisdiction ques..."
+  default_prompt: "Use $classify-cannabis-product to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

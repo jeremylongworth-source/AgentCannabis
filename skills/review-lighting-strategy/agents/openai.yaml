@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Lighting Strategy"
+  short_description: "Review lighting strategy for completeness, traceability, conflicts, and required human follow-up without changing the..."
+  default_prompt: "Use $review-lighting-strategy to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

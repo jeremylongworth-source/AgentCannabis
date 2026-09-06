@@ -1,0 +1,4 @@
+interface:
+  display_name: "Measure Production Improvement"
+  short_description: "Measure production improvement from supplied baseline, metric, unit, period, and evidence records without asserting r..."
+  default_prompt: "Use $measure-production-improvement to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

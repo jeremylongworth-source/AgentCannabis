@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Lockout Control"
+  short_description: "Review lockout control for completeness, traceability, conflicts, and required human follow-up without changing the u..."
+  default_prompt: "Use $review-lockout-control to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

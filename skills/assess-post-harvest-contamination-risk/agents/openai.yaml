@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Post Harvest Contamination Risk"
+  short_description: "Assess post harvest contamination risk against supplied criteria and evidence, leaving regulated decisions with the r..."
+  default_prompt: "Use $assess-post-harvest-contamination-risk to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Cannabis Quality Complaint"
+  short_description: "Investigate cannabis quality complaint by organizing known facts, gaps, contradictory records, and responsible human..."
+  default_prompt: "Use $investigate-cannabis-quality-complaint to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build GPP Corrective Action"
+  short_description: "Build an evidence-backed gpp corrective action from existing approved records, criteria, and reviewer assignments"
+  default_prompt: "Use $build-gpp-corrective-action to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

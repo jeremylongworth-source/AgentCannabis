@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Analytical Testing Authority"
+  short_description: "Identify analytical testing authority using supplied evidence, current-source checks, and the repository's review-onl..."
+  default_prompt: "Use $identify-analytical-testing-authority to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

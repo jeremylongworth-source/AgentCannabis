@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify SOP Training Readiness"
+  short_description: "Verify sop training readiness by checking source, licence, role, record, and provenance evidence without creating app..."
+  default_prompt: "Use $verify-sop-training-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

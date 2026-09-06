@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Growing Medium"
+  short_description: "Classify growing medium from supplied records and route unresolved authority, quality, hazard, or jurisdiction questi..."
+  default_prompt: "Use $classify-growing-medium to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

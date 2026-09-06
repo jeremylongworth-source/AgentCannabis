@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Cannabis Lot Lineage"
+  short_description: "Map cannabis lot lineage across records, roles, lots, areas, and evidence sources while preserving gaps and conflicts"
+  default_prompt: "Use $map-cannabis-lot-lineage to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

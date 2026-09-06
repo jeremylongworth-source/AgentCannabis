@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Chemical Processing Hazard"
+  short_description: "Identify chemical processing hazard using supplied evidence, current-source checks, and the repository's review-only..."
+  default_prompt: "Use $identify-chemical-processing-hazard to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

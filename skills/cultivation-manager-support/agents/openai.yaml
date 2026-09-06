@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cultivation Manager Support"
+  short_description: "Coordinate member workflows for cultivation manager support; review assistance only"
+  default_prompt: "Use $cultivation-manager-support to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Post Harvest Loss"
+  short_description: "Analyze post harvest loss from supplied records, preserving original observations, units, uncertainty, and conflictin..."
+  default_prompt: "Use $analyze-post-harvest-loss to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

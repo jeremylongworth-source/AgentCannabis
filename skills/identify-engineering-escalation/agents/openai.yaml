@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Engineering Escalation"
+  short_description: "Identify the qualified disciplines and jurisdiction evidence needed for an engineering-boundary review"
+  default_prompt: "Use $identify-engineering-escalation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

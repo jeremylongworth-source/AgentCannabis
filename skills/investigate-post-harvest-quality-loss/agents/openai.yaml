@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Post Harvest Quality Loss"
+  short_description: "Investigate post harvest quality loss by organizing known facts, gaps, contradictory records, and responsible human f..."
+  default_prompt: "Use $investigate-post-harvest-quality-loss to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

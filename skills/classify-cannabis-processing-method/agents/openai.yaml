@@ -1,0 +1,4 @@
+interface:
+  display_name: "Classify Cannabis Processing Method"
+  short_description: "Classify cannabis processing method from supplied records and route unresolved authority, quality, hazard, or jurisdi..."
+  default_prompt: "Use $classify-cannabis-processing-method to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

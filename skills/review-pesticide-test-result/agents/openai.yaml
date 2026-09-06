@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Pesticide Test Result"
+  short_description: "Review pesticide test result for completeness, traceability, conflicts, and required human follow-up without changing..."
+  default_prompt: "Use $review-pesticide-test-result to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

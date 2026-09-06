@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Post Harvest Segregation"
+  short_description: "Plan post harvest segregation as a documented review workflow using existing approved criteria and unresolved-evidenc..."
+  default_prompt: "Use $plan-post-harvest-segregation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

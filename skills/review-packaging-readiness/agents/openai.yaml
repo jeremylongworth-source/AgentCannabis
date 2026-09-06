@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Packaging Readiness"
+  short_description: "Review packaging readiness for completeness, traceability, conflicts, and required human follow-up without changing t..."
+  default_prompt: "Use $review-packaging-readiness to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

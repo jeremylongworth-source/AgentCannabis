@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Genetic Lineage Record"
+  short_description: "Maintain genetic lineage record as an auditable record set with lineage, version, source, and reviewer traceability"
+  default_prompt: "Use $maintain-genetic-lineage-record to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

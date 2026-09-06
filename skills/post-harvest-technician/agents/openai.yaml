@@ -1,0 +1,4 @@
+interface:
+  display_name: "Post Harvest Technician"
+  short_description: "Coordinate member workflows for post-harvest technician; review assistance only"
+  default_prompt: "Use $post-harvest-technician to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

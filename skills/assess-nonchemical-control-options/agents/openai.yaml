@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Nonchemical Control Options"
+  short_description: "Assess nonchemical control options against supplied criteria and evidence, leaving regulated decisions with the respo..."
+  default_prompt: "Use $assess-nonchemical-control-options to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

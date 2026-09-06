@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Facility Maintenance Program"
+  short_description: "Review facility maintenance program for completeness, traceability, conflicts, and required human follow-up without c..."
+  default_prompt: "Use $review-facility-maintenance-program to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

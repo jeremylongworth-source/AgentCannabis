@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Licence Condition"
+  short_description: "Review licence condition for completeness, traceability, conflicts, and required human follow-up without changing the..."
+  default_prompt: "Use $review-licence-condition to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

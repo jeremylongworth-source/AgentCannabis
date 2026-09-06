@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Temperature Deviation"
+  short_description: "Analyze temperature deviation from supplied records, preserving original observations, units, uncertainty, and confli..."
+  default_prompt: "Use $analyze-temperature-deviation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

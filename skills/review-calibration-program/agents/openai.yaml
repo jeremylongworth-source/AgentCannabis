@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Calibration Program"
+  short_description: "Review calibration program for completeness, traceability, conflicts, and required human follow-up without changing t..."
+  default_prompt: "Use $review-calibration-program to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

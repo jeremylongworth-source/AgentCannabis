@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Plant Health Corrective Action"
+  short_description: "Build an evidence-backed plant health corrective action from existing approved records, criteria, and reviewer assign..."
+  default_prompt: "Use $build-plant-health-corrective-action to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

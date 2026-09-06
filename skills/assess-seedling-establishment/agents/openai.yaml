@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Seedling Establishment"
+  short_description: "Assess seedling establishment against supplied criteria and evidence, leaving regulated decisions with the responsibl..."
+  default_prompt: "Use $assess-seedling-establishment to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

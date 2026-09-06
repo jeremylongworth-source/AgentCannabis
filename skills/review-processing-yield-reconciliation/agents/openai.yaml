@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Processing Yield Reconciliation"
+  short_description: "Review processing yield reconciliation for completeness, traceability, conflicts, and required human follow-up withou..."
+  default_prompt: "Use $review-processing-yield-reconciliation to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

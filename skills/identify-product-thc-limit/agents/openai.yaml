@@ -1,0 +1,4 @@
+interface:
+  display_name: "Identify Product THC Limit"
+  short_description: "Identify product thc limit using supplied evidence, current-source checks, and the repository's review-only authority..."
+  default_prompt: "Use $identify-product-thc-limit to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Controlled Environment Cultivation Specialist"
+  short_description: "Coordinate member workflows for controlled-environment cultivation specialist; review assistance only"
+  default_prompt: "Use $controlled-environment-cultivation-specialist to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

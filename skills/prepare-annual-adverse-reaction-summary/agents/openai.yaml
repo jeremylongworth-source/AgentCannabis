@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare Annual Adverse Reaction Summary"
+  short_description: "Prepare annual adverse reaction summary as a review package with indexed evidence, unresolved issues, and pending aut..."
+  default_prompt: "Use $prepare-annual-adverse-reaction-summary to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Quality Trend"
+  short_description: "Analyze quality trend from supplied records, preserving original observations, units, uncertainty, and conflicting ev..."
+  default_prompt: "Use $analyze-quality-trend to prepare a bounded AgentCannabis review with evidence gaps, source-currentness limits, and responsible human decisions clearly separated."
