@@ -6,7 +6,7 @@ The repository supports review assistance only. It does not authorize cannabis p
 
 ## Current status
 
-AgentCannabis v1.0 is ready. The roadmap is complete on `main`, the GitHub repository is public, the GitHub wiki is published, and all 18 professional skillsets install from the public `v1.0.0` tag with `gh skill install`.
+AgentCannabis v1.0 is ready. The roadmap is complete on `main`, the GitHub repository is public, the GitHub wiki is published, and all 18 professional skillsets install from both public `main` and the public `v1.0.0` tag with `gh skill install`.
 
 ## Quick local checks
 
@@ -52,4 +52,5 @@ Read `CONTRIBUTING.md` before adding or changing skills. New skills must preserv
 ## License
 
 MIT. See `LICENSE`.
+
 

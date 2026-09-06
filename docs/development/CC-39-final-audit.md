@@ -51,6 +51,7 @@ Install validation passed:
 gh skill install --from-local checked 18 professional wrappers: PASS
 scripts/install_skillset.ps1 -WhatIf checked 18 manifests: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.0 checked 18 professional wrappers: PASS
+remote gh skill install from jeremylongworth-source/AgentCannabis at main checked 18 professional wrappers: PASS
 ```
 
 GitHub state verified:
@@ -89,3 +90,4 @@ The source registry preserves currentness limits. Users must reverify current pr
 ## Decision
 
 Final decision: `V1_READY`.
+
