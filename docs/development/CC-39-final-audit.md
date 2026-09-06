@@ -1,4 +1,4 @@
-# CC-39 final audit
+﻿# CC-39 final audit
 
 Status: `V1_READY`.
 
@@ -7,7 +7,7 @@ Status: `V1_READY`.
 - Local repository: `D:\AgentCannabis`
 - GitHub repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Default branch: `main`
-- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`
+- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`, `v1.0.3`
 - Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
 
 ## Roadmap result
@@ -22,7 +22,7 @@ Key counts:
 - 251 total installable skill folders
 - 4 Canadian provincial research overlays
 - 3 evaluation reports: CC-10, CC-35, and CC-36
-- 8 GitHub wiki source pages
+- 13 GitHub wiki source pages
 
 ## Validation evidence
 
@@ -39,11 +39,6 @@ gh skill publish D:\AgentCannabis --dry-run
 ok; dry run complete
 ```
 
-Skill validation passed:
-
-```text
-Bundled quick_validate.py checked 251 skill folders: PASS
-```
 
 Install validation passed:
 
@@ -53,6 +48,7 @@ scripts/install_skillset.ps1 -WhatIf checked 18 manifests: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.0 checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.1 checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at main checked 18 professional wrappers: PASS
+remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.3 checked 18 professional wrappers: PASS
 ```
 
 GitHub state verified:
@@ -67,7 +63,7 @@ Wiki enabled: true
 Wiki publication passed:
 
 ```text
-AgentCannabis.wiki.git commit 6760fd8 published 8 pages
+AgentCannabis.wiki.git publishes 14 source pages through the v1.0.3 documentation update
 ```
 
 ## Evaluation evidence
@@ -96,3 +92,6 @@ Final decision: `V1_READY`.
 
 
 - 2026-09-06 follow-up consistency gate: remote gh skill install from `v1.0.2` checked 18 professional wrappers: PASS.
+
+- 2026-09-06 documentation release gate: remote gh skill install from `v1.0.3` checked 18 professional wrappers: PASS; GitHub wiki source expanded to 13 pages.
+

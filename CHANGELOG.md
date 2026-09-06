@@ -2,6 +2,20 @@
 
 All notable changes to AgentCannabis are recorded here.
 
+## v1.0.3 - 2026-09-06
+
+### Changed
+
+- Rewrote the public README for a professional open-source Agent Skills release.
+- Expanded the GitHub wiki source into a complete user, maintainer, routing, taxonomy, source, evaluation, and FAQ guide.
+- Updated release audit documentation to reflect the expanded public documentation surface.
+
+### Validation
+
+- `.\scripts\validate-all.ps1` passes.
+- `gh skill publish . --dry-run` completes.
+- All 18 professional skillsets install from the public `v1.0.3` tag with `gh skill install`.
+
 ## v1.0.2 - 2026-09-06
 
 ### Changed
