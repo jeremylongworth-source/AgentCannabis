@@ -1,0 +1,412 @@
+{
+  "scope": "Source snapshots for review assistance; reverify applicable claims at use.",
+  "verification_limit": "Access on 2026-09-05 does not prove law current through that date; inspect each record's limits.",
+  "sources": [
+    {
+      "id": "CA-ACT-LICENSING",
+      "source_title": "Cannabis Act - section 62",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-62.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Federal licensing authority; does not establish any individual site's authorization.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-01",
+        "CC-03",
+        "CC-06"
+      ],
+      "provisions": [
+        "62(1)",
+        "62(9)",
+        "62(10)"
+      ],
+      "targeted_claim": "The Minister can issue, renew or amend licences and permits, and licences are subject to regulatory and Minister-imposed conditions.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-62.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-03-26",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-CONSOLIDATION",
+      "source_title": "Cannabis Regulations - consolidation and amendment index",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Version identification for all federal records in this pack.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-06"
+      ],
+      "provisions": [
+        "Consolidation notice",
+        "Amendment index"
+      ],
+      "targeted_claim": "The retrieved consolidation states current to 2026-06-21 and last amended 2026-06-04; access on 2026-09-05 does not extend that coverage.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-LICENCE-CONTENT",
+      "source_title": "Cannabis Regulations - licence classes and content",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-2.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Licence routing; section 9 excludes the cannabis drug licence class.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-03"
+      ],
+      "provisions": [
+        "8",
+        "9"
+      ],
+      "targeted_claim": "Licence classes and subclasses differ; a licence records its site/building, authorized activities, conditions and effective and expiry dates.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-2.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-ROLES-SITE",
+      "source_title": "Cannabis Regulations - responsible person, security and approved site",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-6.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Federal role and site routing; review section 39(2) exceptions rather than treating the site restriction as absolute.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-03",
+        "CC-04"
+      ],
+      "provisions": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "targeted_claim": "The responsible person binds the holder and is accountable for licensed activities. Head-of-security requirements exclude analytical-testing and research licences. Authorized site/building and outdoor restrictions must be assessed with their express exceptions.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-6.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-QAP-ROLE",
+      "source_title": "Cannabis Regulations - quality assurance person",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-19.html?wbdisable=true",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Processing QAP role; the current subsection 19(3) permits one or more qualified alternates.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-03",
+        "CC-07"
+      ],
+      "provisions": [
+        "19(1)",
+        "19(1.1)",
+        "19(2)",
+        "19(3)",
+        "19(4)"
+      ],
+      "targeted_claim": "Processing licence holders retain a qualified QAP responsible for quality and investigations; edible-cannabis expertise, qualified alternates and reference-standard/test-kit exceptions require separate applicability checks.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-19.html?wbdisable=true",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-QAP-APPROVAL",
+      "source_title": "Cannabis Regulations - quality assurance approvals",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-88.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Processing quality approvals; distinguish authorized human responsibility from AI review of evidence.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-03",
+        "CC-07"
+      ],
+      "provisions": [
+        "88(1)(a)-(e)",
+        "88(2)"
+      ],
+      "targeted_claim": "Section 88 assigns investigation, method, preventive-control-plan and lot/batch approval duties to the QAP. Subsection 88(2) allows activities in paragraphs (1)(b)-(e) under the QAP's responsibility.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-88.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-GPP-GENERAL",
+      "source_title": "Cannabis Regulations - general GPP requirements",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-8.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "General GPP applicability, quality during storage/distribution, premises and equipment. No universal climate or production targets.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-07"
+      ],
+      "provisions": [
+        "79",
+        "79.1",
+        "79.2",
+        "79.3",
+        "80",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86"
+      ],
+      "targeted_claim": "Applicable GPP must be met before sale, distribution or export; SOPs cover specified handling and testing activities. Exemptions in sections 79.1-79.3 and activity-specific exceptions must be checked.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-8.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-PCP",
+      "source_title": "Cannabis Regulations - preventive control plan",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-88.94.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Product-contamination preventive-control-plan review. The requirement is not a universal PCP claim for every cannabis activity.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-04",
+        "CC-07"
+      ],
+      "provisions": [
+        "88.94(1)",
+        "88.94(2)",
+        "88.94(3)"
+      ],
+      "targeted_claim": "Processing holders conducting activities relating to extracts or edible cannabis need a written preventive control plan. Required content includes hazard/control evidence, critical points and limits, monitoring, corrective action, verification and implementation records.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-88.94.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "HC-GPP-GUIDE",
+      "source_title": "Guidance document: Good production practices guide for cannabis",
+      "organization": "Health Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.canada.ca/en/health-canada/services/cannabis-regulations-licensed-producers/good-production-practices-guide/guidance-document.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Quality-system interpretation and examples; not a substitute for the regulation or a current product-specific testing review.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-07"
+      ],
+      "provisions": [
+        "5.2.1 Quality assurance",
+        "Testing discussion",
+        "Appendix E"
+      ],
+      "targeted_claim": "The guide explains GPP evidence and cautions that passing testing alone does not establish GPP compliance. Its displayed QAP discussion must be read with current section 88(2).",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.canada.ca/en/health-canada/services/cannabis-regulations-licensed-producers/good-production-practices-guide/guidance-document.html",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": "2025-07-15",
+      "date_notes": "The page details display 2025-07-15; this is not a legal effective date.",
+      "limitations": [
+        "The inspected QAP discussion does not state the current section 88(2) provision; use legislation for that point.",
+        "This pack does not validate every example, numerical limit or testing detail in the guide."
+      ]
+    },
+    {
+      "id": "CA-REG-SAMPLING",
+      "source_title": "Cannabis Regulations - testing method and representative sample",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-92.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Sampling-evidence and COA review; no universal acceptance limit or laboratory method is supplied.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-24"
+      ],
+      "provisions": [
+        "92(1)-(3)"
+      ],
+      "targeted_claim": "Applicable testing requires validated methods and representative lot/batch samples; retained portions have specified duration and quantity requirements.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-92.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-REG-VOLUNTARY-RECALL",
+      "source_title": "Cannabis Regulations - voluntary recall reporting",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-247.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Authorized human determines recall action and reporting applicability; no report is submitted by this repository.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-27"
+      ],
+      "provisions": [
+        "247"
+      ],
+      "targeted_claim": "Voluntary recall reporting distinguishes Canadian product recalls from exported cannabis and includes notification, risk evaluation, results and retention requirements.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-247.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-REG-ADVERSE-REPORTING",
+      "source_title": "Cannabis Regulations - adverse reaction definitions and reporting",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-27.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Evidence triage and human reporting handoff; no medical causality diagnosis or automatic reportability determination.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-27"
+      ],
+      "provisions": [
+        "248",
+        "248.1",
+        "248.2"
+      ],
+      "targeted_claim": "Product adverse-reaction reporting and annual summaries are distinguished from non-therapeutic research reporting; deadlines and retention differ.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-27.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    }
+  ]
+}

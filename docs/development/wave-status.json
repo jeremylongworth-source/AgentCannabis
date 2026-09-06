@@ -1,0 +1,548 @@
+{
+  "schema_version": "1.0",
+  "project": "AgentCannabis",
+  "repository": "D:\\AgentCannabis",
+  "remote": "https://github.com/jeremylongworth-source/AgentCannabis",
+  "readiness_status": "LOCAL_ARTIFACTS_READY_PENDING_PUBLICATION",
+  "generated_at": "2026-09-05",
+  "waves": [
+    {
+      "id": "CC-00",
+      "title": "Baseline audit",
+      "status": "READY",
+      "evidence": [
+        "docs/development/CC-00-baseline-audit.md"
+      ],
+      "limits": [
+        "Baseline reflects repository state at project start."
+      ],
+      "next": "Continue maintaining wave evidence."
+    },
+    {
+      "id": "CC-01",
+      "title": "Domain architecture and boundaries",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/domain-contract.md",
+        "docs/architecture/scope-boundaries.md",
+        "docs/architecture/prohibited-capabilities.md"
+      ],
+      "limits": [
+        "Architecture is a review-assistance contract, not legal certification."
+      ],
+      "next": "Apply boundary contract to all generated skills."
+    },
+    {
+      "id": "CC-02",
+      "title": "Master Taxonomy v1.0",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/master-taxonomy-v1.md",
+        "docs/architecture/taxonomy-index.yaml",
+        "scripts/import_taxonomy.py"
+      ],
+      "limits": [
+        "Taxonomy count is frozen; aliases are documented separately."
+      ],
+      "next": "Preserve exact 233 atomic skills."
+    },
+    {
+      "id": "CC-03",
+      "title": "Licence, role, and activity contracts",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/licence-routing.md",
+        "docs/architecture/site-role-routing.md",
+        "docs/architecture/activity-authority-contract.md"
+      ],
+      "limits": [
+        "Actual licence and role evidence remains required for site-specific conclusions."
+      ],
+      "next": "Use in all authority-related skills."
+    },
+    {
+      "id": "CC-04",
+      "title": "Process hazard and engineering boundaries",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/process-hazard-model.md",
+        "docs/architecture/engineering-boundaries.md",
+        "docs/architecture/hazardous-process-routing.md"
+      ],
+      "limits": [
+        "No operational hazardous-process instruction or engineering sign-off is provided."
+      ],
+      "next": "Use in all processing and engineering-adjacent skills."
+    },
+    {
+      "id": "CC-05",
+      "title": "Skill authoring standards",
+      "status": "READY",
+      "evidence": [
+        "docs/standards/skill-authoring-standard.md",
+        "docs/standards/skill-naming-standard.md",
+        "docs/standards/output-contract-standard.md"
+      ],
+      "limits": [
+        "Standards require self-contained packages and explicit limits."
+      ],
+      "next": "Apply to all atomic and professional packages."
+    },
+    {
+      "id": "CC-06",
+      "title": "Evidence and source standards",
+      "status": "READY",
+      "evidence": [
+        "docs/standards/research-and-evidence-standard.md",
+        "docs/standards/regulatory-source-standard.md",
+        "docs/standards/source-freshness-standard.md",
+        "docs/research/federal-foundation-sources.md",
+        "sources/federal-foundations.json",
+        "sources/regulatory-extensions.json"
+      ],
+      "limits": [
+        "Source snapshots require current-at-use verification and do not establish complete current law."
+      ],
+      "next": "Keep source claims targeted and dated."
+    },
+    {
+      "id": "CC-07",
+      "title": "GPP quality-system standard",
+      "status": "READY",
+      "evidence": [
+        "docs/standards/gpp-quality-system-standard.md"
+      ],
+      "limits": [
+        "Quality standard supports evidence review only; QAP or authorized human decision remains pending."
+      ],
+      "next": "Apply to quality, lot, and product workflows."
+    },
+    {
+      "id": "CC-08",
+      "title": "Testing and evaluation standards",
+      "status": "READY",
+      "evidence": [
+        "docs/standards/testing-standard.md",
+        "docs/standards/evaluation-standard.md",
+        "scripts/validate_repository.py",
+        "tests/test_review_gate.py"
+      ],
+      "limits": [
+        "Structural validation does not prove behavioral or legal correctness."
+      ],
+      "next": "Use forward-test evidence for behavior gates."
+    },
+    {
+      "id": "CC-09",
+      "title": "Shared foundations consumed by reference skills",
+      "status": "READY",
+      "evidence": [
+        "scripts/build_skills.py",
+        "catalog/reference-profiles.json",
+        "skills/build-crop-monitoring-plan/SKILL.md",
+        "skills/determine-authorized-cannabis-activity/SKILL.md",
+        "skills/assess-lot-release-readiness/SKILL.md",
+        "skills/classify-processing-hazard/SKILL.md",
+        "skills/identify-engineering-escalation/SKILL.md"
+      ],
+      "limits": [
+        "Generated scenario files are specifications, not execution proof."
+      ],
+      "next": "Use CC-10 results before mass authoring."
+    },
+    {
+      "id": "CC-10",
+      "title": "Five reference skills",
+      "status": "READY",
+      "evidence": [
+        "docs/development/evaluations/CC-10-forward-test.md",
+        "skills/build-crop-monitoring-plan/SKILL.md",
+        "skills/determine-authorized-cannabis-activity/SKILL.md",
+        "skills/assess-lot-release-readiness/SKILL.md",
+        "skills/classify-processing-hazard/SKILL.md",
+        "skills/identify-engineering-escalation/SKILL.md"
+      ],
+      "limits": [
+        "Forward test was one constrained delegated-agent pass, not live legal verification or GitHub Copilot host behavior."
+      ],
+      "next": "Proceed to remaining atomic skill profiles and packages."
+    },
+    {
+      "id": "CC-11",
+      "title": "Family 01 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-cannabis-business-activity/SKILL.md",
+        "skills/verify-cannabis-regulatory-source-freshness/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-12",
+      "title": "Family 02 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/identify-required-site-roles/SKILL.md",
+        "skills/assess-site-change-governance/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-13",
+      "title": "Family 13 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/draft-cannabis-sop/SKILL.md",
+        "skills/build-gpp-corrective-action/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-14",
+      "title": "Family 03 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/review-starting-material-provenance/SKILL.md",
+        "skills/prepare-propagation-batch-record/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-15",
+      "title": "Family 04 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-cultivation-system/SKILL.md",
+        "skills/compare-cultivation-scenarios/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-16",
+      "title": "Family 05 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/build-environment-monitoring-plan/SKILL.md",
+        "skills/review-environment-sensor-coverage/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-17",
+      "title": "Family 06 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-growing-medium/SKILL.md",
+        "skills/investigate-root-zone-stress/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-18",
+      "title": "Family 07 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/build-plant-health-monitoring-plan/SKILL.md",
+        "skills/build-plant-health-corrective-action/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-19",
+      "title": "Family 08 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/review-crop-observation-record/SKILL.md",
+        "skills/verify-harvest-lot-identity/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-20",
+      "title": "Family 09 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/review-post-harvest-intake/SKILL.md",
+        "skills/investigate-post-harvest-handling-deviation/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-21",
+      "title": "Family 10 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/build-drying-monitoring-plan/SKILL.md",
+        "skills/investigate-post-harvest-quality-loss/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-22",
+      "title": "Family 11 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-cannabis-processing-method/SKILL.md",
+        "skills/prepare-processing-deviation-summary/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-23",
+      "title": "Family 12 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-hazardous-extraction-operation/SKILL.md",
+        "skills/verify-preventive-control-plan/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-24",
+      "title": "Family 14 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/build-cannabis-sampling-plan/SKILL.md",
+        "skills/analyze-quality-trend/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-25",
+      "title": "Family 15 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/classify-cannabis-product/SKILL.md",
+        "skills/prepare-new-cannabis-product-notice/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-26",
+      "title": "Family 16 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/reconcile-cannabis-inventory/SKILL.md",
+        "skills/classify-cannabis-loss-theft-event/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-27",
+      "title": "Family 17 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/triage-cannabis-quality-complaint/SKILL.md",
+        "skills/prepare-annual-adverse-reaction-summary/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-28",
+      "title": "Family 18 skills",
+      "status": "READY",
+      "evidence": [
+        "skills/identify-cannabis-workplace-hazard/SKILL.md",
+        "skills/measure-production-improvement/SKILL.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-29",
+      "title": "Ontario overlay",
+      "status": "READY",
+      "evidence": [
+        "specializations/canada/ontario/README.md",
+        "sources/regulatory-extensions.json"
+      ],
+      "limits": [
+        "Overlay supports evidence routing only; site-specific current-law and professional conclusions remain unresolved until actual source and site review."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-30",
+      "title": "British Columbia overlay",
+      "status": "READY",
+      "evidence": [
+        "specializations/canada/british-columbia/README.md",
+        "sources/regulatory-extensions.json"
+      ],
+      "limits": [
+        "Overlay supports evidence routing only; site-specific current-law and professional conclusions remain unresolved until actual source and site review."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-31",
+      "title": "Alberta overlay",
+      "status": "READY",
+      "evidence": [
+        "specializations/canada/alberta/README.md",
+        "sources/regulatory-extensions.json"
+      ],
+      "limits": [
+        "Overlay supports evidence routing only; site-specific current-law and professional conclusions remain unresolved until actual source and site review."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-32",
+      "title": "Quebec overlay",
+      "status": "READY",
+      "evidence": [
+        "specializations/canada/quebec/README.md",
+        "sources/regulatory-extensions.json"
+      ],
+      "limits": [
+        "Overlay supports evidence routing only; site-specific current-law and professional conclusions remain unresolved until actual source and site review."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-33",
+      "title": "Remaining jurisdiction framework",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/canadian-provincial-roadmap.md"
+      ],
+      "limits": [
+        "Overlay supports evidence routing only; site-specific current-law and professional conclusions remain unresolved until actual source and site review."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-34",
+      "title": "Professional skillset compositions",
+      "status": "READY",
+      "evidence": [
+        "skillsets/cultivation-technician.json",
+        "skillsets/cannabis-operations-manager.json",
+        "scripts/build_skillsets.py"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-35",
+      "title": "Integrated workflow evaluations",
+      "status": "READY",
+      "evidence": [
+        "docs/development/evaluations/CC-35-integrated-workflows.md"
+      ],
+      "limits": [
+        "Behavior report is an agent pass, not live Copilot host behavior, current-law verification, or statistical robustness proof."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-36",
+      "title": "Adversarial evaluations",
+      "status": "READY",
+      "evidence": [
+        "docs/development/evaluations/CC-36-adversarial-evaluations.md"
+      ],
+      "limits": [
+        "Behavior report is an agent pass, not live Copilot host behavior, current-law verification, or statistical robustness proof."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-37",
+      "title": "Specialization roadmap",
+      "status": "READY",
+      "evidence": [
+        "docs/architecture/specialization-roadmap.md"
+      ],
+      "limits": [
+        "Readiness is based on generated package structure and repository validation; regulated decisions remain bounded review assistance."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-38",
+      "title": "Public repository documentation",
+      "status": "READY",
+      "evidence": [
+        "README.md",
+        "CONTRIBUTING.md",
+        "CHANGELOG.md",
+        "LICENSE",
+        "SECURITY.md",
+        "CODE_OF_CONDUCT.md",
+        "wiki/Home.md",
+        "wiki/Installation.md"
+      ],
+      "limits": [
+        "Local documentation exists; public GitHub repository and hosted wiki publication still need release execution."
+      ],
+      "next": "Maintain evidence and update final audit."
+    },
+    {
+      "id": "CC-39",
+      "title": "Final audit",
+      "status": "PENDING",
+      "evidence": [],
+      "limits": [
+        "No readiness claim until required artifacts and evaluation evidence exist."
+      ],
+      "next": "Complete this roadmap wave."
+    }
+  ]
+}

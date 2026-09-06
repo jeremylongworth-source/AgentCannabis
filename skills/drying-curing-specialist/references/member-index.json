@@ -1,0 +1,319 @@
+{
+  "skillset": "drying-curing-specialist",
+  "role": "drying and curing specialist",
+  "focus": "drying, curing, moisture, water activity, storage, and microbial-risk evidence review",
+  "included_skills": [
+    {
+      "name": "plan-post-harvest-material-flow",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-harvest-lot-identity",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-post-harvest-intake",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "plan-post-harvest-segregation",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-trimming-process",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-material-handling-control",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-post-harvest-contamination-risk",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-post-harvest-hold-status",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-post-harvest-loss",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-post-harvest-handling-deviation",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-drying-monitoring-plan",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-drying-environment",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-drying-trend",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-drying-deviation",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-drying-endpoint-evidence",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-water-activity-result",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-moisture-result",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-post-harvest-microbial-risk",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "plan-cure-monitoring",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-curing-condition",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-moisture-rebound",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-condition",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-post-harvest-quality-loss",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-cannabis-sampling-plan",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sample-integrity",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-certificate-of-analysis",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-cannabinoid-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pesticide-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-microbial-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-chemical-contaminant-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-heavy-metal-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-residual-solvent-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-stability-data",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-quality-release-package",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-lot-release-readiness",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-product-stability-program",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-quality-trend",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    }
+  ]
+}

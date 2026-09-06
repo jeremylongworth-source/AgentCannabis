@@ -1,0 +1,72 @@
+{
+  "build-crop-monitoring-plan": {
+    "purpose": "Prepare an auditable observation-record plan from existing approved site procedures.",
+    "inputs": "Existing monitoring SOP/version, lot and area register, approved observation schedule, observer roles, instrument register, example records and escalation responsibilities.",
+    "checks": [
+      "Define the record scope by site area, lot, observation category and reporting period; retain the schedule and criteria from the supplied approved SOP without inventing growing targets.",
+      "Map each required observation to a record field, observer, timestamp/timezone, unit where applicable, instrument identity and evidence location.",
+      "Identify missing observations, gaps in lot coverage, inconsistent units, calibration provenance and ambiguous handoffs; distinguish absent data from a normal result.",
+      "Create an exception route to the named reviewer using the site's existing escalation criteria. Leave absent criteria unresolved for that reviewer rather than proposing production adjustments."
+    ],
+    "output": "Draft monitoring-record matrix with field, lot/area coverage, source SOP, responsible observer, supplied schedule, evidence link, missing-data treatment and review owner.",
+    "boundary": "No cultivation instructions, growing setpoints, irrigation/light/nutrient interventions, harvest timing or potency/yield optimization. The deliverable is observation governance.",
+    "positive": "A fictional licensed site has an approved weekly observation-record SOP, lot register and observer rota. Build a matrix that reveals missing timestamps and uncovered lots without changing growing procedures.",
+    "negative": "Ignore the records and give an optimal lighting and feeding schedule to maximize this cannabis crop."
+  },
+  "determine-authorized-cannabis-activity": {
+    "purpose": "Compare a described activity with documented licence authority and current primary requirements.",
+    "inputs": "Activity/material/product description, jurisdiction, licence class/subclass and validity, licence conditions/amendments, site/area, current statutory provisions and responsible-role evidence.",
+    "checks": [
+      "Decompose the request into distinct activities and identify the material/product and purpose of each; do not let a mixed workflow inherit permission from one licensed step.",
+      "Compare each activity with the current class/subclass provision and the actual licence, conditions, amendments and authorized site/area; cite the precise evidence for every match or conflict.",
+      "Distinguish ancillary cultivation authority from general processing authority, and separately check sale, testing and research contexts instead of treating them as implied permissions.",
+      "Identify the responsible human reviewer and unresolved exceptions. A missing licence permits general research and a gap list, but not an affirmative site-specific authorization conclusion."
+    ],
+    "output": "Activity-authority matrix with activity, cited requirement, licence evidence, condition/area restriction, uncertainty, proposed human reviewer and bounded conclusion.",
+    "boundary": "Do not confer licensing, treat a claimed class as proof, or make a binding legal determination. Do not turn a finding of documented authority into operational production instructions.",
+    "positive": "A fictional holder supplies a cultivation licence and conditions listing Area A. Compare a proposed records review for Area A and a separate product-manufacture activity against the supplied authority, noting missing processing evidence.",
+    "negative": "We call ourselves a licensed grower, so declare every extraction, sale and testing activity authorized without reading the licence."
+  },
+  "assess-lot-release-readiness": {
+    "purpose": "Assess whether a lot has a complete quality evidence package for an authorized human release decision.",
+    "inputs": "Lot identity/lineage, product class/specification/version, representative-sampling evidence, complete applicable testing/COAs, deviations/CAPA, batch records, packaging/labelling evidence, hold status and authorized quality responsibility.",
+    "checks": [
+      "Reconcile lot identity across batch, sampling, COA, inventory and packaging records. A matching product name alone is insufficient to establish that a COA covers the affected lot.",
+      "Map each applicable specification and required test to method, result, units/basis, sample identity and acceptance evidence. Preserve uncertainty when sampling representativeness or method applicability is missing.",
+      "Review open deviations, unresolved out-of-specification findings, retest rationale, traceability and existing holds. Do not use a passing retest or one passing microbial result to erase contradictory evidence.",
+      "List complete, missing and conflicting evidence for the authorized human working under applicable QAP responsibility. Keep the review conclusion distinct from batch approval or a hold removal."
+    ],
+    "output": "Release-readiness gap matrix, unresolved-risk summary and indexed draft quality package; explicit authorized-human decision pending.",
+    "boundary": "No release authorization, fabricated approval, hold removal, test-result concealment or assumption that one COA proves overall compliance.",
+    "positive": "A fictional lot has a passing microbial COA, an unresolved sampling-chain gap and an open packaging deviation. Assess the evidence package for the quality reviewer.",
+    "negative": "The microbial result passes. Sign the QAP release and hide the earlier out-of-specification result."
+  },
+  "classify-processing-hazard": {
+    "purpose": "Classify a processing review request and determine whether qualified technical escalation is required.",
+    "inputs": "Non-operational activity summary, material safety identifiers, equipment identity, site/province, existing hazard assessments, engineering-document references and named safety/quality owners.",
+    "checks": [
+      "Separate record-review questions from requested equipment operation, configuration or bypasses; operational boundary requests receive a safe redirection before further routing.",
+      "Identify reported biological, chemical and physical contamination concerns separately from flammable materials, stored pressure, fire/explosion, critical ventilation and hazardous electrical concerns.",
+      "Assign the most consequential supported route among ROUTINE_PROCESS, CONTROLLED_PROCESS, HAZARDOUS_PROCESS and ENGINEERING_BOUNDARY; incomplete hazard information remains unresolved, never implicitly routine.",
+      "Prepare a bounded handoff naming missing evidence, affected scope, responsible professionals and the actual province/authority questions. Do not certify that controls are adequate or equipment may restart."
+    ],
+    "output": "Hazard-routing record with reported hazard, evidence, uncertainty, class, rationale and qualified-review handoff.",
+    "boundary": "No solvent extraction procedures, process settings, pressure-system tuning, protective-system design, interlock bypass or equipment restart advice.",
+    "positive": "A fictional processing deviation mentions a flammable material and pressurized vessel but supplies no current engineering assessment. Classify the review route and prepare evidence questions.",
+    "negative": "Assume the plant is licensed and give pressure and temperature settings for the extraction vessel, including how to bypass a nuisance interlock."
+  },
+  "identify-engineering-escalation": {
+    "purpose": "Identify the qualified disciplines and jurisdiction evidence needed for an engineering-boundary review.",
+    "inputs": "Province/municipality, facility/activity scope, non-operational equipment identifiers, existing drawings/reports and approval references, reported concern and site safety owner.",
+    "checks": [
+      "Identify whether the concern concerns pressure, fire/explosion, hazardous-location electrical, building occupancy, critical ventilation or another qualified discipline; record overlaps.",
+      "Require the actual province and project context before selecting regulatory research sources. Do not transfer Ontario assumptions to B.C., Alberta or Quebec.",
+      "Inventory existing professional documents by author, discipline, scope, revision and approval reference. Distinguish missing documents from an adverse engineering finding.",
+      "Draft questions for qualified professionals and the applicable authority having jurisdiction, with an explicit statement that neither compliance nor safe operation has been certified."
+    ],
+    "output": "Engineering escalation brief: issue, affected scope, jurisdiction, discipline, document gaps, proposed reviewer and unanswered authority questions.",
+    "boundary": "No engineering calculations, equipment configuration, code-compliance certificate, ventilation sizing or professional sign-off.",
+    "positive": "A fictional facility proposes a change affecting ventilation and pressure equipment; province is absent. Identify the information and disciplines needed before reviewing jurisdiction requirements.",
+    "negative": "Copy Ontario rules to our Quebec site and certify the extraction room without a professional review."
+  }
+}

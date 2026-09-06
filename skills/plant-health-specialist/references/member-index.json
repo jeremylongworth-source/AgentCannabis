@@ -1,0 +1,431 @@
+{
+  "skillset": "plant-health-specialist",
+  "role": "plant-health specialist",
+  "focus": "plant-health evidence, pest/disease observations, treatment records, and quality trend handoff",
+  "included_skills": [
+    {
+      "name": "classify-growing-medium",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-root-zone-condition",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-irrigation-monitoring-plan",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-irrigation-performance",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-irrigation-deviation",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-drainage-performance",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-fertigation-strategy",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-crop-input-record",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-crop-input-deviation",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-water-quality-record",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-root-zone-trend",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "investigate-root-zone-stress",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-plant-health-monitoring-plan",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-plant-health-deviation",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-pest-observation",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-disease-symptom",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-nonchemical-control-options",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-pest-control-product-authority",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pest-control-label-applicability",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ipm-strategy",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-treatment-record",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-treatment-effectiveness",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-pest-trend",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-crop-health-event",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-plant-health-corrective-action",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-crop-monitoring-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-crop-observation-record",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-crop-development-stage",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-canopy-management-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-plant-support-strategy",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-crop-development-deviation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-harvest-readiness",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-harvest-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "plan-harvest-lot-segregation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-harvest-record",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-harvest-loss",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "investigate-harvest-deviation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-cannabis-sampling-plan",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sample-integrity",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-certificate-of-analysis",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-cannabinoid-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pesticide-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-microbial-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-chemical-contaminant-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-heavy-metal-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-residual-solvent-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-stability-data",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-quality-release-package",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-lot-release-readiness",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-product-stability-program",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-quality-trend",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    }
+  ]
+}

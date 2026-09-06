@@ -1,0 +1,1871 @@
+{
+  "skillset": "cannabis-operations-manager",
+  "role": "cannabis operations manager",
+  "focus": "end-to-end operational governance, compliance evidence, quality systems, inventory, post-market, and safety escalation",
+  "included_skills": [
+    {
+      "name": "classify-cannabis-business-activity",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-required-cannabis-licence",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-applicable-licence-class",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "determine-authorized-cannabis-activity",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-licence-condition",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-authorized-site-area",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-cannabis-product-authority",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-research-development-authority",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-analytical-testing-authority",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-licence-change-requirement",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-regulatory-notification-requirement",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-cannabis-regulatory-source-freshness",
+      "family": "01",
+      "production_stage": "federal-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-required-site-roles",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "map-site-role-responsibilities",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-responsible-person-obligation",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-master-grower-responsibility",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-qap-responsibility",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-head-of-security-responsibility",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-site-access-governance",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabis-storage-security",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-physical-security-requirement",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-site-change-governance",
+      "family": "02",
+      "production_stage": "site-governance",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-starting-material-provenance",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "classify-cannabis-starting-material",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-cultivar-identification",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "maintain-genetic-lineage-record",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "plan-propagation-workflow",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-propagation-readiness",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-clone-establishment",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-seedling-establishment",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-mother-stock-condition",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-propagation-deviation",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-propagation-loss",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "prepare-propagation-batch-record",
+      "family": "03",
+      "production_stage": "starting-material-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "classify-cultivation-system",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-crop-production-plan",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-crop-cycle-schedule",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-growing-area-capacity",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "plan-crop-space-allocation",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-crop-density-strategy",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-crop-uniformity",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "forecast-crop-output",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-cultivation-workflow",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-cultivation-bottleneck",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-yield-deviation",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "compare-cultivation-scenarios",
+      "family": "04",
+      "production_stage": "crop-planning-review",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-environment-monitoring-plan",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-growing-environment",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-temperature-deviation",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-humidity-deviation",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-airflow-deviation",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-lighting-strategy",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-photoperiod-control",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-environmental-uniformity",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-co2-management-context",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-environmental-trend",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-environment-control-failure",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "investigate-climate-related-crop-stress",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-environment-sensor-coverage",
+      "family": "05",
+      "production_stage": "environment-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "classify-growing-medium",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-root-zone-condition",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-irrigation-monitoring-plan",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-irrigation-performance",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-irrigation-deviation",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-drainage-performance",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-fertigation-strategy",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-crop-input-record",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-crop-input-deviation",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-water-quality-record",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-root-zone-trend",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "investigate-root-zone-stress",
+      "family": "06",
+      "production_stage": "root-zone-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-plant-health-monitoring-plan",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-plant-health-deviation",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-pest-observation",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-disease-symptom",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-nonchemical-control-options",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-pest-control-product-authority",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pest-control-label-applicability",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ipm-strategy",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-treatment-record",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-treatment-effectiveness",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-pest-trend",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-crop-health-event",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-plant-health-corrective-action",
+      "family": "07",
+      "production_stage": "plant-health-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-crop-monitoring-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-crop-observation-record",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-crop-development-stage",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-canopy-management-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-plant-support-strategy",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "identify-crop-development-deviation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "assess-harvest-readiness",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "build-harvest-plan",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "plan-harvest-lot-segregation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "review-harvest-record",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "analyze-harvest-loss",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "investigate-harvest-deviation",
+      "family": "08",
+      "production_stage": "crop-and-harvest-records",
+      "responsible_role": "Master Grower responsibility / authorized records reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "false-for-review-only; required-before-implementation"
+    },
+    {
+      "name": "plan-post-harvest-material-flow",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-harvest-lot-identity",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-post-harvest-intake",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "plan-post-harvest-segregation",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-trimming-process",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-material-handling-control",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-post-harvest-contamination-risk",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-post-harvest-hold-status",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-post-harvest-loss",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-post-harvest-handling-deviation",
+      "family": "09",
+      "production_stage": "post-harvest-intake",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-drying-monitoring-plan",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-drying-environment",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-drying-trend",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-drying-deviation",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-drying-endpoint-evidence",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-water-activity-result",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-moisture-result",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-post-harvest-microbial-risk",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "plan-cure-monitoring",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-curing-condition",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-moisture-rebound",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-condition",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-post-harvest-quality-loss",
+      "family": "10",
+      "production_stage": "post-harvest-quality",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-cannabis-processing-method",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-processing-licence-authority",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "map-cannabis-processing-flow",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-processing-material-intake",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-mechanical-separation-process",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-processing-batch-record",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-product-transformation-record",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-processing-deviation",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-processing-yield-reconciliation",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-processing-change",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-process-validation-evidence",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-processing-deviation-summary",
+      "family": "11",
+      "production_stage": "processing-governance",
+      "responsible_role": "Authorized operations and quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-processing-hazard",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-hazardous-extraction-operation",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-process-hazard-analysis",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-biological-processing-hazard",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-chemical-processing-hazard",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-physical-processing-hazard",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-process-control-measure",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-critical-control-point",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-critical-limit-evidence",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-corrective-action-procedure",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-preventive-control-plan",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "HAZARDOUS_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-engineering-escalation",
+      "family": "12",
+      "production_stage": "hazard-review",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "ENGINEERING_BOUNDARY",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "draft-cannabis-sop",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabis-sop",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-sop-change",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "document-sop-deviation",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-gpp-impact-of-deviation",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-sop-training-readiness",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "audit-sop-execution-record",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sanitation-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-equipment-cleaning-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-personnel-hygiene-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-building-gpp-condition",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-air-filtration-ventilation-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cross-contamination-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-gpp-compliance",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-gpp-corrective-action",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-equipment-maintenance-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-calibration-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-document-control-system",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-controlled-change",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-personnel-training-record",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-facility-maintenance-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-supplier-qualification",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ingredient-material-qualification",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-cannabis-sampling-plan",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sample-integrity",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-certificate-of-analysis",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-cannabinoid-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pesticide-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-microbial-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-chemical-contaminant-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-heavy-metal-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-residual-solvent-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-stability-data",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-quality-release-package",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-lot-release-readiness",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-product-stability-program",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-quality-trend",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-cannabis-product",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-class-requirements",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-product-composition",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-formulation-record",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ingredient-compliance",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabinoid-uniformity",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-thc-limit",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-notification-requirement",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-packaging-readiness",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-labelling-readiness",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-lot-number-traceability",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-labelling-requirement",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-product-specification",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-new-cannabis-product-notice",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "reconcile-cannabis-inventory",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "map-cannabis-lot-lineage",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "map-cannabis-inventory-transformation",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "reconcile-packaged-inventory",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "reconcile-unpackaged-inventory",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-inventory-discrepancy",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-unaccounted-cannabis",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ctls-report-readiness",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-ctls-reporting-discrepancy",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "validate-monthly-inventory-balance",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-excise-licence-requirement",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-cannabis-stamping-requirement",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "plan-cannabis-destruction",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabis-destruction-record",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-cannabis-loss-theft-event",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-loss-theft-reporting-package",
+      "family": "16",
+      "production_stage": "traceability-and-reporting",
+      "responsible_role": "Responsible Person / authorized regulatory reviewer",
+      "hazard_class": "ROUTINE_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "triage-cannabis-quality-complaint",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-cannabis-quality-complaint",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-product-hold-requirement",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-recall-trigger",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-cannabis-recall-scope",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-mock-recall-performance",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "reconcile-recall-inventory",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-adverse-reaction-reportability",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-post-market-corrective-action",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-serious-adverse-reaction-report",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-annual-adverse-reaction-summary",
+      "family": "17",
+      "production_stage": "post-market",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-cannabis-workplace-hazard",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-cannabis-safety-risk-register",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-worker-training-requirement",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-whmis-readiness",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-lockout-control",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-facility-safety-deviation",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "audit-cannabis-compliance-record",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "perform-production-root-cause-analysis",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-corrective-preventive-action-plan",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "measure-production-improvement",
+      "family": "18",
+      "production_stage": "workplace-and-improvement",
+      "responsible_role": "Qualified discipline professional and authorized site reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "schema_version": "1.0",
+  "title": "Regulatory extension and provincial-overlay source register",
+  "last_verified": "2026-09-05",
+  "scope": [
+    "CC-18 pesticide authorization boundary",
+    "CC-24 testing evidence",
+    "CC-25 product and packaging classification",
+    "CC-26 CTLS and CRA separation",
+    "CC-27 post-market reporting",
+    "CC-29 Ontario research overlay",
+    "CC-30 British Columbia research overlay",
+    "CC-31 Alberta research overlay",
+    "CC-32 Quebec research overlay",
+    "CC-33 jurisdiction-expansion inputs"
+  ],
+  "verification_method": "Official pages and targeted provisions were inspected. Two Ontario records are explicitly limited to indexed official excerpts because direct retrieval failed.",
+  "operational_currency": "REVERIFICATION_REQUIRED",
+  "freshness_policy_note": "The proposed 30-day review interval is repository policy, not a statutory guarantee. Verify current sources and the actual site/product at use.",
+  "consolidation_limitation": "Cannabis Act/Regulations and Tracking Order snapshots used here cover 2026-06-21. The separately retrieved Excise Act snapshot covers 2026-05-26. Provincial currency limits are per record; no uniform current-to date is asserted.",
+  "used_by_note": "Intended roadmap consumers only; source presence does not close a roadmap wave.",
+  "sources": [
+    {
+      "id": "CA-REG-PESTICIDES",
+      "source_title": "Cannabis Regulations - pest control product authorization",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-8.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Authorization and label verification only; no pesticide recommendation, application rate or treatment method.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-18"
+      ],
+      "provisions": [
+        "81"
+      ],
+      "targeted_claim": "Cannabis pest-control treatment requires registration or other authorization under the Pest Control Products Act; an edible-cannabis exception is specified.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-8.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "HC-PMRA-REGISTRY",
+      "source_title": "Pesticide Product Information Database",
+      "organization": "Health Canada - PMRA",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "OFFICIAL_DATABASE",
+      "source_url": "https://pest-control.canada.ca/pesticide-registry/en/index.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "No individual product, registration status, label use or pesticide list was verified.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-18"
+      ],
+      "provisions": [
+        "Product search",
+        "Label search"
+      ],
+      "targeted_claim": "The official registry provides product and label searches; it is the starting point for current product-specific authorization checks.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://pest-control.canada.ca/pesticide-registry/en/index.html",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-ACT-PRODUCT-CLASSES",
+      "source_title": "Cannabis Act - Schedule 4",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/page-18.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Class mapping only; classification does not itself authorize a product or sale.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-25"
+      ],
+      "provisions": [
+        "Schedule 4"
+      ],
+      "targeted_claim": "Schedule 4 identifies dried cannabis, fresh cannabis, plants, plant seeds, edible cannabis, extracts and topicals as sale classes.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/page-18.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-03-26",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-REG-PACKAGING",
+      "source_title": "Cannabis Regulations - immediate container requirements",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-108.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Starting point for packaging review; complete Part 7, product-specific labelling, artwork and testing were not audited.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-25"
+      ],
+      "provisions": [
+        "108"
+      ],
+      "targeted_claim": "Immediate-container requirements are class-sensitive and include contamination protection and a security feature; plant and seed treatment differs.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-108.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-REG-SAMPLING",
+      "source_title": "Cannabis Regulations - testing method and representative sample",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-92.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Sampling-evidence and COA review; no universal acceptance limit or laboratory method is supplied.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-24"
+      ],
+      "provisions": [
+        "92(1)-(3)"
+      ],
+      "targeted_claim": "Applicable testing requires validated methods and representative lot/batch samples; retained portions have specified duration and quantity requirements.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-92.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-TRACKING-ORDER",
+      "source_title": "Cannabis Tracking System Order - federal reporting",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-202/page-1.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Read the exact licence applicability and schedules; this is not a complete CTLS schema.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-26"
+      ],
+      "provisions": [
+        "2",
+        "3"
+      ],
+      "targeted_claim": "The specified cultivation, processing and medical-sale-with-possession holders report applicable site inventory information monthly; class, units, movements and reporting identity are specified.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-202/page-1.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2025-04-01",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "HC-CTLS-REPORTING",
+      "source_title": "CTLS reporting guide for cultivation, processing and sale for medical purposes licence holders: Overview",
+      "organization": "Health Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/tracking-system/monthly-reporting-guide.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Validate current forms and rules for the reporting party; human review and authorization precede submission.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-26"
+      ],
+      "provisions": [
+        "Who is this guide for",
+        "When to submit"
+      ],
+      "targeted_claim": "The guide describes monthly submission and Responsible Person accountability; provincial/territorial distributor and retailer reporting has a separate guide.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/tracking-system/monthly-reporting-guide.html",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": "2025-02-10",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-EXCISE-PRODUCTION",
+      "source_title": "Excise Act, 2001 - production without licence",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/E-14.1/section-158.02.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "CRA excise is a separate authority check from Health Canada; no tax amount, stamp or filing conclusion.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-26"
+      ],
+      "provisions": [
+        "158.02"
+      ],
+      "targeted_claim": "Cannabis-product production is restricted to the excise cannabis licence framework, subject to express exceptions.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/acts/E-14.1/section-158.02.html",
+      "current_to": "2026-05-26",
+      "last_amended": "2026-03-26",
+      "page_modified": "2026-06-05",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CRA-CANNABIS-LICENSING",
+      "source_title": "EDM6-2 Obtaining and renewing a cannabis licence",
+      "organization": "Canada Revenue Agency",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/technical-information/excise-duty/excise-duty-memoranda/edm6-2-obtaining-and-renewing-a-cannabis-licence.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Tax-specialist review of the actual entity, activity, reporting period, exemptions and current rules is required.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-26"
+      ],
+      "provisions": [
+        "Requirement to obtain a cannabis licence",
+        "Responsibilities of cannabis licensees"
+      ],
+      "targeted_claim": "The memorandum explains excise licensing, exceptions, records and returns; it replaces Notice EDN52 and does not replace the legislation.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.canada.ca/en/revenue-agency/services/tax/technical-information/excise-duty/excise-duty-memoranda/edm6-2-obtaining-and-renewing-a-cannabis-licence.html",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": "2025-03-19",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ],
+      "publication_date_text": "March 2025"
+    },
+    {
+      "id": "CA-REG-VOLUNTARY-RECALL",
+      "source_title": "Cannabis Regulations - voluntary recall reporting",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-247.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Authorized human determines recall action and reporting applicability; no report is submitted by this repository.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-27"
+      ],
+      "provisions": [
+        "247"
+      ],
+      "targeted_claim": "Voluntary recall reporting distinguishes Canadian product recalls from exported cannabis and includes notification, risk evaluation, results and retention requirements.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/section-247.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "CA-REG-ADVERSE-REPORTING",
+      "source_title": "Cannabis Regulations - adverse reaction definitions and reporting",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-27.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Evidence triage and human reporting handoff; no medical causality diagnosis or automatic reportability determination.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-27"
+      ],
+      "provisions": [
+        "248",
+        "248.1",
+        "248.2"
+      ],
+      "targeted_claim": "Product adverse-reaction reporting and annual summaries are distinguished from non-therapeutic research reporting; deadlines and retention differ.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-27.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ]
+    },
+    {
+      "id": "ON-OHSA-DUTIES",
+      "source_title": "Guide to the Occupational Health and Safety Act - Part III: Duties of employers and other persons",
+      "organization": "Government of Ontario",
+      "jurisdiction": "Canada - Ontario",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act/part-iii-duties-employers-and-other-persons",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Ontario workplace-duty orientation; exact statute, regulations, coverage and current exceptions need direct verification.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-29"
+      ],
+      "provisions": [
+        "Employer duties; OHSA 25(1), 25(2)(h) referenced"
+      ],
+      "targeted_claim": "The official indexed guide describes employer duties for prescribed equipment, maintenance and reasonable precautions for workers.",
+      "verification_status": "VERIFIED_INDEXED_EXCERPT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.ontario.ca/document/guide-occupational-health-and-safety-act/part-iii-duties-employers-and-other-persons",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Direct page retrieval failed; only the official-source search excerpt was available.",
+        "The Ontario statutory consolidation was not successfully inspected."
+      ]
+    },
+    {
+      "id": "ON-FIRE-2019-AMENDMENT",
+      "source_title": "O. Reg. 33/19 amending the Fire Code",
+      "organization": "Government of Ontario - e-Laws",
+      "jurisdiction": "Canada - Ontario",
+      "authority_level": "PRIMARY_LEGISLATION_HISTORICAL",
+      "source_url": "https://www.ontario.ca/laws/regulation/r19033",
+      "publication_date": "2019-03-14",
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Historical basis for fire-authority escalation only; not proof of current code wording, technical design or a site's compliance.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-29"
+      ],
+      "provisions": [
+        "Amendments to O. Reg. 213/07",
+        "Division A 1.3.1.1",
+        "Division B 5.14.11 reference"
+      ],
+      "targeted_claim": "The 2019 amendment introduced cannabis hazardous-extraction treatment, including a farm-building exception to a general exemption.",
+      "verification_status": "VERIFIED_INDEXED_EXCERPT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.ontario.ca/laws/regulation/r19033",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Official indexed amendment text was available; direct e-Laws retrieval failed.",
+        "Current consolidated O. Reg. 213/07 retrieval returned 403. Do not apply this historical instrument as the current complete Code."
+      ],
+      "publication_date_text": "Published on e-Laws March 14, 2019"
+    },
+    {
+      "id": "BC-CANNABIS-PRESSURE-ADVISORY",
+      "source_title": "Dangers of extracting cannabis using equipment at high pressure",
+      "organization": "WorkSafeBC",
+      "jurisdiction": "Canada - British Columbia",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.worksafebc.com/en/resources/health-safety/risk-advisory/dangers-extracting-cannabis-using-equipment-high-pressure?lang=en",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Hazard recognition and escalation only; no pressure setting, extraction operation or engineering instruction.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-30"
+      ],
+      "provisions": [
+        "Risk Advisory RA 2022-03"
+      ],
+      "targeted_claim": "WorkSafeBC identifies pressure-release and solvent hazards in cannabis processing and directs readers to provincial pressure and equipment requirements.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.worksafebc.com/en/resources/health-safety/risk-advisory/dangers-extracting-cannabis-using-equipment-high-pressure?lang=en",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Current-at-use verification is required; this record does not establish all law in force on the access date.",
+        "The targeted claim is the complete verified scope of this record."
+      ],
+      "publication_date_text": "October 2022; day not stated"
+    },
+    {
+      "id": "BC-OHS-PART5",
+      "source_title": "Occupational Health and Safety Regulation - Part 5: Chemical Agents and Biological Agents",
+      "organization": "WorkSafeBC",
+      "jurisdiction": "Canada - British Columbia",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-05-chemical-and-biological-substances",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Source location for qualified safety review, not reproduced equipment instructions.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-30"
+      ],
+      "provisions": [
+        "5.36-5.47"
+      ],
+      "targeted_claim": "Part 5 contains requirements for substances under pressure; applicability and exemptions must be assessed against the actual equipment.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-05-chemical-and-biological-substances",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Relevant section text was inspected, but a whole-consolidation current-to date was not established.",
+        "Referenced technical standards, permits and site applicability were not independently audited."
+      ]
+    },
+    {
+      "id": "BC-OHS-PART12",
+      "source_title": "Occupational Health and Safety Regulation - Part 12: Tools, Machinery and Equipment",
+      "organization": "WorkSafeBC",
+      "jurisdiction": "Canada - British Columbia",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-12-tools-machinery-and-equipment",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Route equipment classification and exceptions to qualified human review; no design values reproduced.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-30"
+      ],
+      "provisions": [
+        "12.173",
+        "12.174"
+      ],
+      "targeted_claim": "The pressure-vessel provisions contain defined scope and exceptions, including a separate pressure-equipment regulatory framework.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.worksafebc.com/en/law-policy/occupational-health-safety/searchable-ohs-regulation/ohs-regulation/part-12-tools-machinery-and-equipment",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Relevant section text was inspected; consolidation currency and all later amendments were not established.",
+        "Do not equate an advisory or AI assessment with Technical Safety BC acceptance."
+      ]
+    },
+    {
+      "id": "AB-OHS-INDEX",
+      "source_title": "OHS Act, regulation and code",
+      "organization": "Government of Alberta",
+      "jurisdiction": "Canada - Alberta",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.alberta.ca/ohs-act-regulation-code",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Version-routing source; not proof that a search-tool excerpt reflects all current changes.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-31"
+      ],
+      "provisions": [
+        "OHS Code updates",
+        "Official online version"
+      ],
+      "targeted_claim": "Alberta identifies its OHS Act, regulation and code as the workplace-safety framework and notes changes fully effective March 31, 2025.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.alberta.ca/ohs-act-regulation-code",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "The linked official Code document failed retrieval.",
+        "The linked search tool carries an older currency notice; reconcile against the King's Printer at use."
+      ]
+    },
+    {
+      "id": "AB-OHS-HAZARD-ASSESSMENT",
+      "source_title": "Occupational Health and Safety Code - Part 2: Hazard Assessment, Elimination and Control",
+      "organization": "Government of Alberta - OHS legislation search",
+      "jurisdiction": "Canada - Alberta",
+      "authority_level": "OFFICIAL_LEGISLATIVE_REPRODUCTION",
+      "source_url": "https://search-ohs-laws.alberta.ca/legislation/occupational-health-and-safety-code/part-2-hazard-assessment-elimination-and-control/",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Orientation for Alberta safety review; sector coverage and current official text require confirmation.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-31"
+      ],
+      "provisions": [
+        "7",
+        "8",
+        "9"
+      ],
+      "targeted_claim": "The displayed text calls for documented hazard assessment, affected-worker participation and hazard elimination/control.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://search-ohs-laws.alberta.ca/legislation/occupational-health-and-safety-code/part-2-hazard-assessment-elimination-and-control/",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "The page's disclaimer says current to March 2023 despite apparently newer content. Do not infer a later consolidation date.",
+        "Confirm current King's Printer text and applicable amendments before decisions."
+      ],
+      "current_to_text": "March 2023 (displayed general disclaimer)"
+    },
+    {
+      "id": "QC-CNESST-IMPAIRMENT",
+      "source_title": "Facultés affaiblies en milieu de travail",
+      "organization": "CNESST",
+      "jurisdiction": "Canada - Quebec",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.cnesst.gouv.qc.ca/fr/prevention-securite/identifier-corriger-risques/liste-informations-prevention/facultes-affaiblies-en-milieu-travail",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "French-source workplace-risk orientation; no individualized employment, accommodation or medical determination.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-32"
+      ],
+      "provisions": [
+        "Obligations de l'employeur et du travailleur"
+      ],
+      "targeted_claim": "CNESST explains employer and worker obligations when impairment creates a workplace safety risk; cannabis legalization does not remove those obligations.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.cnesst.gouv.qc.ca/fr/prevention-securite/identifier-corriger-risques/liste-informations-prevention/facultes-affaiblies-en-milieu-travail",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "The French CNESST guidance was inspected; the LSST consolidation could not be retrieved.",
+        "Employment, privacy, accommodation and sector-specific obligations require current qualified review."
+      ],
+      "source_language": "fr"
+    },
+    {
+      "id": "QC-RBQ-CODE-2025-GUIDE",
+      "source_title": "Cahier explicatif des principaux changements au Code de sécurité du Québec, Chapitre VIII - Bâtiment, et CNPI Canada 2020 (modifié)",
+      "organization": "Régie du bâtiment du Québec",
+      "jurisdiction": "Canada - Quebec",
+      "authority_level": "OFFICIAL_GUIDANCE",
+      "source_url": "https://www.rbq.gouv.qc.ca/fileadmin/medias/pdf/Publications/francais/cahier-explicatif-changements-cnpi-2020.pdf",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Version and authority routing only; no fire-design advice or assertion that one code edition applies to every site.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-32"
+      ],
+      "provisions": [
+        "Introduction; PDF page 2",
+        "Building history discussion; PDF pages 5-7"
+      ],
+      "targeted_claim": "The 2025 explanatory guide describes Quebec modifications and links applicable building requirements to construction/transformation history; official regulatory text takes precedence.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://www.rbq.gouv.qc.ca/fileadmin/medias/pdf/Publications/francais/cahier-explicatif-changements-cnpi-2020.pdf",
+      "current_to": null,
+      "last_amended": null,
+      "page_modified": null,
+      "date_notes": "Original publication and provision-specific effective dates were not independently established unless stated separately.",
+      "limitations": [
+        "Guide is explanatory; the applicable regulation, transition provisions and municipal authority were not audited.",
+        "Older RBQ pages labelled 2013-2025 remain discoverable; do not mix editions."
+      ],
+      "source_language": "fr",
+      "publication_date_text": "Legal deposit 2025; day and month not established"
+    }
+  ],
+  "failed_access": [
+    {
+      "source_url": "https://www.ontario.ca/laws/regulation/070213",
+      "last_attempted": "2026-09-05",
+      "result": "403 / failed retrieval",
+      "effect": "Current Ontario Fire Code not certified."
+    },
+    {
+      "source_url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/S-2.1",
+      "last_attempted": "2026-09-05",
+      "result": "502 / failed retrieval; alternate retrieval also failed",
+      "effect": "LSST statutory consolidation not inspected."
+    },
+    {
+      "source_url": "https://www.alberta.ca/ohs-act-regulation-code",
+      "linked_resource": "Official online Occupational Health and Safety Code",
+      "last_attempted": "2026-09-05",
+      "result": "Linked document retrieval failed",
+      "effect": "Current King's Printer Code requires independent verification."
+    }
+  ],
+  "unverified_areas": [
+    "Amendment and commencement coverage after each stated consolidation date",
+    "Actual licences, premises, permits, site personnel, products and delegated authority",
+    "Current pesticide registrations and labels; no product approved by this review",
+    "Complete product composition, label rules, laboratory scope and acceptance criteria",
+    "CTLS CSV field-level schema, live account state and CRA filing, duty and stamping calculations",
+    "Current provincial building, fire, electrical, pressure-equipment, environment and occupational law applicability",
+    "Municipal and Indigenous-jurisdiction requirements",
+    "Professional engineering, clinical, tax and legal determinations"
+  ],
+  "validation": {
+    "source_count": 20,
+    "source_dates_separated": true,
+    "engineering_operating_parameters_included": false,
+    "site_specific_clearance": false
+  }
+}

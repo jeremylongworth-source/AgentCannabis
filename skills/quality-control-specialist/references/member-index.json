@@ -1,0 +1,431 @@
+{
+  "skillset": "quality-control-specialist",
+  "role": "quality control specialist",
+  "focus": "sampling, COA review, OOS evidence, specifications, product quality records, and release package support",
+  "included_skills": [
+    {
+      "name": "draft-cannabis-sop",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabis-sop",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-sop-change",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "document-sop-deviation",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-gpp-impact-of-deviation",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-sop-training-readiness",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "audit-sop-execution-record",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sanitation-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-equipment-cleaning-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-personnel-hygiene-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-building-gpp-condition",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-air-filtration-ventilation-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cross-contamination-control",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-gpp-compliance",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-gpp-corrective-action",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-equipment-maintenance-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-calibration-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-document-control-system",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-controlled-change",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-personnel-training-record",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-facility-maintenance-program",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-supplier-qualification",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ingredient-material-qualification",
+      "family": "13",
+      "production_stage": "quality-system",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-cannabis-sampling-plan",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-sample-integrity",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-certificate-of-analysis",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "interpret-cannabinoid-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-pesticide-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-microbial-test-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-chemical-contaminant-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-heavy-metal-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-residual-solvent-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-stability-data",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "investigate-out-of-specification-result",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-quality-release-package",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "assess-lot-release-readiness",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "build-product-stability-program",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "analyze-quality-trend",
+      "family": "14",
+      "production_stage": "testing-and-quality",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "classify-cannabis-product",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-class-requirements",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-product-composition",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-formulation-record",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-ingredient-compliance",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-cannabinoid-uniformity",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-thc-limit",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "identify-product-notification-requirement",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-packaging-readiness",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-labelling-readiness",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "verify-lot-number-traceability",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-storage-labelling-requirement",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "review-product-specification",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    },
+    {
+      "name": "prepare-new-cannabis-product-notice",
+      "family": "15",
+      "production_stage": "product-compliance",
+      "responsible_role": "QAP responsibility / authorized quality reviewer",
+      "hazard_class": "CONTROLLED_PROCESS",
+      "human_approval_required": "true"
+    }
+  ]
+}

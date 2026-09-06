@@ -1,0 +1,105 @@
+{
+  "scope": "Source snapshots for review assistance; reverify applicable claims at use.",
+  "verification_limit": "Access on 2026-09-05 does not prove law current through that date; inspect each record's limits.",
+  "sources": [
+    {
+      "id": "CA-ACT-LICENSING",
+      "source_title": "Cannabis Act - section 62",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-62.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Federal licensing authority; does not establish any individual site's authorization.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-01",
+        "CC-03",
+        "CC-06"
+      ],
+      "provisions": [
+        "62(1)",
+        "62(9)",
+        "62(10)"
+      ],
+      "targeted_claim": "The Minister can issue, renew or amend licences and permits, and licences are subject to regulatory and Minister-imposed conditions.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/acts/C-24.5/section-62.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-03-26",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-CONSOLIDATION",
+      "source_title": "Cannabis Regulations - consolidation and amendment index",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Version identification for all federal records in this pack.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-06"
+      ],
+      "provisions": [
+        "Consolidation notice",
+        "Amendment index"
+      ],
+      "targeted_claim": "The retrieved consolidation states current to 2026-06-21 and last amended 2026-06-04; access on 2026-09-05 does not extend that coverage.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    },
+    {
+      "id": "CA-REG-LICENCE-CONTENT",
+      "source_title": "Cannabis Regulations - licence classes and content",
+      "organization": "Department of Justice Canada",
+      "jurisdiction": "Canada - federal",
+      "authority_level": "PRIMARY_LEGISLATION",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-2.html",
+      "publication_date": null,
+      "effective_date": null,
+      "last_verified": "2026-09-05",
+      "applicability": "Licence routing; section 9 excludes the cannabis drug licence class.",
+      "supersession_risk": "HIGH",
+      "used_by": [
+        "CC-03"
+      ],
+      "provisions": [
+        "8",
+        "9"
+      ],
+      "targeted_claim": "Licence classes and subclasses differ; a licence records its site/building, authorized activities, conditions and effective and expiry dates.",
+      "verification_status": "VERIFIED_SOURCE_SNAPSHOT",
+      "freshness_interval": 30,
+      "primary_authority": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-144/page-2.html",
+      "current_to": "2026-06-21",
+      "last_amended": "2026-06-04",
+      "page_modified": "2026-08-20",
+      "date_notes": "Publication and provision-specific effective dates were not independently established. The page modification date is not a legal effective date.",
+      "limitations": [
+        "The consolidation is current only to the displayed current_to date; changes after that date were not exhaustively checked.",
+        "Reverify the provision, applicable amendments and actual licence before an operational or legal decision."
+      ]
+    }
+  ]
+}
