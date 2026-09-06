@@ -217,6 +217,27 @@ def validate_agent_metadata(name: str, skill_dir: Path) -> None:
     if "dependencies:" in text:
         fail(f"{name} should not declare host-specific tool dependencies")
 
+
+def validate_root_agent_templates() -> None:
+    agents_dir = ROOT / "agents"
+    if not agents_dir.is_dir():
+        fail("Missing agents routing template directory")
+    for required in ("AGENTS.base.md", "AGENTS.full.md"):
+        if not (agents_dir / required).is_file():
+            fail(f"Missing agents/{required}")
+    full_text = (agents_dir / "AGENTS.full.md").read_text(encoding="utf-8")
+    for name in sorted(PROFESSIONAL_SKILLSETS):
+        path = agents_dir / f"AGENTS.{name}.md"
+        if not path.is_file():
+            fail(f"Missing agents/AGENTS.{name}.md")
+        text = path.read_text(encoding="utf-8")
+        if f"${name}" not in text:
+            fail(f"agents/AGENTS.{name}.md must explicitly route ${name}")
+        if f"${name}" not in full_text:
+            fail(f"agents/AGENTS.full.md must explicitly route ${name}")
+        if "member-index.json" not in text:
+            fail(f"agents/AGENTS.{name}.md must reference member-index.json")
+
 def validate_skill(name: str, *, expected_kind: str = "atomic") -> None:
     path = ROOT / "skills" / name / "SKILL.md"
     if not path.is_file():
@@ -267,6 +288,7 @@ def validate_reference_stage() -> None:
 def validate_full_stage() -> None:
     taxonomy_records = validate_taxonomy()
     validate_sources()
+    validate_root_agent_templates()
     for record in taxonomy_records:
         validate_skill(str(record["name"]))
     manifests = ROOT / "skillsets"

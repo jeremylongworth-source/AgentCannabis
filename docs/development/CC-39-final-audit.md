@@ -7,7 +7,7 @@ Status: `V1_READY`.
 - Local repository: `D:\AgentCannabis`
 - GitHub repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Default branch: `main`
-- Public release tags used for install verification: `v1.0.0`, `v1.0.1`
+- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`
 - Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
 
 ## Roadmap result
@@ -94,3 +94,5 @@ Final decision: `V1_READY`.
 
 
 
+
+- 2026-09-06 follow-up consistency gate: remote gh skill install from `v1.0.2` checked 18 professional wrappers: PASS.

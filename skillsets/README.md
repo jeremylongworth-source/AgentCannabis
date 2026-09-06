@@ -2,7 +2,7 @@
 
 Status: `READY`
 
-Professional skillsets compose existing atomic AgentCannabis skills into role-level systems. They are portable Agent Skills packages under `skills/<skillset-name>/` with matching manifests in `skillsets/<skillset-name>.json`.
+Professional skillsets compose existing atomic AgentCannabis skills into role-level systems. They are portable Agent Skills packages under `skills/<skillset-name>/` with matching manifests in `skillsets/<skillset-name>.json` and routing templates in `agents/AGENTS.<skillset-name>.md`.
 
 They do not duplicate all member procedures in the manifest and do not create legal, QAP, lot-release, engineering, pesticide, CTLS, CRA, hazardous-process, or site-specific compliance authority.
 
@@ -33,6 +33,7 @@ They do not duplicate all member procedures in the manifest and do not create le
 - Role packages must not add hidden procedures, hidden approvals, or new regulated conclusions.
 - Role outputs must preserve evidence boundaries, source gaps, owner handoffs, escalation conditions, and qualified-review requirements.
 - GitHub Copilot installation is a supported distribution path, not the only intended use.
+- Root `agents/AGENTS.*.md` files provide AgentSkills-style routing for Codex and other local-agent hosts.
 
 ## Validation
 

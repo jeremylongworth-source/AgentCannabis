@@ -6,7 +6,7 @@ The repository supports review assistance only. It does not authorize cannabis p
 
 ## Current status
 
-AgentCannabis v1.0 is ready. The roadmap is complete on `main`, the GitHub repository is public, the GitHub wiki is published, and all 18 professional skillsets install from both public `main` and the public `v1.0.1` tag with `gh skill install`.
+AgentCannabis v1.0 is ready. The roadmap is complete on `main`, the GitHub repository is public, the GitHub wiki is published, and all 18 professional skillsets install from both public `main` and the public `v1.0.2` tag with `gh skill install`.
 
 ## Quick local checks
 
@@ -26,13 +26,14 @@ gh skill install D:\AgentCannabis build-crop-monitoring-plan --from-local --dir 
 For any Agent Skills host, start with the relevant `skills/<name>/SKILL.md` and load referenced files only when needed. See `docs/setup/agent-skills.md` for portable usage guidance. Each skill includes `agents/openai.yaml` metadata for hosts that read it. GitHub Copilot users can install published professional skillsets from the public repository:
 
 ```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.1
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.2
 ```
 
 ## Repository map
 
 - `skills/` contains portable Agent Skills packages with `SKILL.md`, `agents/openai.yaml`, and self-contained references.
 - `skillsets/` contains professional composition manifests.
+- `agents/` contains AgentSkills-style routing templates for base, full, and professional skillset installs.
 - `catalog/` contains authored skill profiles used by the builder.
 - `docs/architecture/` contains taxonomy, scope, licence, role, activity, and hazard contracts.
 - `docs/standards/` contains authoring, evidence, source, testing, and evaluation standards.

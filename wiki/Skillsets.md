@@ -1,6 +1,6 @@
 # Skillsets
 
-AgentCannabis v1.0 publishes 18 professional skillsets composed from 233 atomic skills. They are portable Agent Skills packages; GitHub Copilot installation is one supported distribution path.
+AgentCannabis v1.0 publishes 18 professional skillsets composed from 233 atomic skills. They are portable Agent Skills packages with root `agents/AGENTS.*.md` routing templates; GitHub Copilot installation is one supported distribution path.
 
 Reference-stage local install example:
 
@@ -11,7 +11,7 @@ gh skill install D:\AgentCannabis build-crop-monitoring-plan --from-local --dir 
 Published install example after release tagging:
 
 ```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.1
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.2
 ```
 
 The professional skillsets are:

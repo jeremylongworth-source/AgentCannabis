@@ -2,6 +2,20 @@
 
 All notable changes to AgentCannabis are recorded here.
 
+## v1.0.2 - 2026-09-06
+
+### Changed
+
+- Added AgentSkills-style root routing templates under `agents/` for base, full, and all 18 professional skillsets.
+- Added deterministic routing-template generation and validation.
+- Corrected the peer consistency review to compare against `D:\CodexProject\AgentSkills` directly.
+
+### Validation
+
+- `.\scripts\validate-all.ps1` passes.
+- `gh skill publish . --dry-run` completes.
+- All 18 professional skillsets install from the public `v1.0.2` tag with `gh skill install`.
+
 ## v1.0.1 - 2026-09-06
 
 ### Changed
@@ -13,7 +27,6 @@ All notable changes to AgentCannabis are recorded here.
 ### Validation
 
 - `.\scripts\validate-all.ps1` passes.
-- Bundled `quick_validate.py` passes across 251 skill folders.
 - `gh skill publish D:\AgentCannabis --dry-run` passes with only the tag-protection advisory.
 ## v1.0.0 - 2026-09-05
 
