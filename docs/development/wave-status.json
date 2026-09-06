@@ -3,7 +3,7 @@
   "project": "AgentCannabis",
   "repository": "D:\\AgentCannabis",
   "remote": "https://github.com/jeremylongworth-source/AgentCannabis",
-  "readiness_status": "LOCAL_ARTIFACTS_READY_PENDING_PUBLICATION",
+  "readiness_status": "V1_READY",
   "generated_at": "2026-09-05",
   "waves": [
     {
@@ -530,19 +530,21 @@
         "wiki/Installation.md"
       ],
       "limits": [
-        "Local documentation exists; public GitHub repository and hosted wiki publication still need release execution."
+        "Local documentation exists and the GitHub wiki has been published."
       ],
       "next": "Maintain evidence and update final audit."
     },
     {
       "id": "CC-39",
       "title": "Final audit",
-      "status": "PENDING",
-      "evidence": [],
-      "limits": [
-        "No readiness claim until required artifacts and evaluation evidence exist."
+      "status": "READY",
+      "evidence": [
+        "docs/development/CC-39-final-audit.md"
       ],
-      "next": "Complete this roadmap wave."
+      "limits": [
+        "V1_READY is repository and distribution readiness, not legal, quality, engineering, tax, or site authorization."
+      ],
+      "next": "Maintain source currency, evaluation coverage, and release notes for future changes."
     }
   ]
 }

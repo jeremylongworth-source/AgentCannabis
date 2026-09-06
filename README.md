@@ -6,7 +6,7 @@ The repository supports review assistance only. It does not authorize cannabis p
 
 ## Current status
 
-Reference-stage packaging is implemented for the five CC-10 skills. The full v1.0 release requires the CC-10 forward-test report, the remaining atomic skill profiles, the 18 professional wrappers, full structural validation, public GitHub publication, wiki publication, and remote `gh skill install` verification.
+AgentCannabis v1.0 is ready. The roadmap is complete on `main`, the GitHub repository is public, the GitHub wiki is published, and all 18 professional skillsets install from the public `v1.0.0` tag with `gh skill install`.
 
 ## Quick local checks
 
@@ -52,3 +52,4 @@ Read `CONTRIBUTING.md` before adding or changing skills. New skills must preserv
 ## License
 
 MIT. See `LICENSE`.
+

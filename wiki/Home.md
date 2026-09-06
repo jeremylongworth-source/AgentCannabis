@@ -1,13 +1,6 @@
-# AgentCannabis Wiki
+C:\Users\jerem
 
-AgentCannabis is a GitHub Copilot skill repository for Canadian cannabis compliance, quality, operations, and evidence-review workflows.
+## v1.0 status
 
-Start here:
+The repository is public, the v1.0 skillsets are installable with gh skill install, and the roadmap final audit is recorded in the main repository.
 
-- [Installation](Installation)
-- [Skillsets](Skillsets)
-- [Taxonomy](Taxonomy)
-- [Safety Boundaries](Safety-Boundaries)
-- [Evaluation](Evaluation)
-- [Sources](Sources)
-- [Contributing](Contributing)

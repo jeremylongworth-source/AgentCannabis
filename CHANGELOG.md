@@ -2,7 +2,7 @@
 
 All notable changes to AgentCannabis are recorded here.
 
-## Unreleased
+## v1.0.0 - 2026-09-05
 
 ### Added
 
@@ -21,9 +21,4 @@ All notable changes to AgentCannabis are recorded here.
 - GitHub skill publish dry-run passes for the reference-stage repository.
 - Local `gh skill install --from-local` succeeds for the five reference skills.
 
-### Pending
 
-- CC-10 independent forward-test report.
-- Remaining 228 atomic skill packages.
-- Eighteen professional skillset wrappers and manifests.
-- Full repository validation, public GitHub release, published wiki, and remote `gh skill install` verification.

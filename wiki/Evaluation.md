@@ -11,4 +11,5 @@ AgentCannabis uses layered evaluation:
 
 Scenario files are not execution evidence. Actual behavioral readiness requires captured outputs, scoring, fixes, and retesting where needed.
 
-CC-10 gates mass authoring. The five reference skills must pass independent forward testing before the remaining atomic skills are generated.
+CC-10 gated mass authoring. The repository includes the CC-10 reference forward-test report, CC-35 integrated workflow report, and CC-36 adversarial evaluation report. Future changes should keep this evidence trail current.
+

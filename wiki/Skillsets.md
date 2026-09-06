@@ -1,6 +1,6 @@
 # Skillsets
 
-The final v1.0 repository will publish 18 professional skillsets composed from 233 atomic skills.
+AgentCannabis v1.0 publishes 18 professional skillsets composed from 233 atomic skills.
 
 Reference-stage local install example:
 
@@ -34,3 +34,4 @@ The professional skillsets are:
 - ctls-inventory-specialist
 - cannabis-production-manager
 - cannabis-operations-manager
+
