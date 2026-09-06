@@ -6,7 +6,7 @@ AgentCannabis is designed for agents that can read local skill folders, project 
 
 ## Current release
 
-- Release: `v1.0.3`
+- Release: `v1.0.4`
 - Repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Status: `V1_READY`
 - Atomic skills: 233
@@ -50,16 +50,18 @@ Run the repository validation gate:
 .\scripts\validate-all.ps1
 ```
 
-Preview GitHub skill packaging:
+Preview GitHub skill packaging with the repository wrapper:
 
 ```powershell
-gh skill publish . --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ```
+
+The wrapper scopes Git's `safe.directory` setting to this command only. It avoids the Windows dubious-ownership warning without changing global Git config.
 
 Install a published professional skillset into a Git project for GitHub Copilot:
 
 ```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.3
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
 ```
 
 For non-Copilot local agent hosts, start with one of the root routing templates in `agents/`, then load the selected skill folder from `skills/`.

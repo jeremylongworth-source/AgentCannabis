@@ -7,7 +7,7 @@ Status: `V1_READY`.
 - Local repository: `D:\AgentCannabis`
 - GitHub repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Default branch: `main`
-- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`, `v1.0.3`
+- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`, `v1.0.3`, `v1.0.4`
 - Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
 
 ## Roadmap result
@@ -35,7 +35,7 @@ PASS, structural-only
 python -m unittest discover -s tests -v
 Ran 14 tests, OK
 
-gh skill publish D:\AgentCannabis --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ok; dry run complete
 ```
 
@@ -49,6 +49,7 @@ remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.0 chec
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.1 checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at main checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.3 checked 18 professional wrappers: PASS
+remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.4 checked 18 professional wrappers: PASS
 ```
 
 GitHub state verified:
@@ -63,7 +64,7 @@ Wiki enabled: true
 Wiki publication passed:
 
 ```text
-AgentCannabis.wiki.git publishes 14 source pages through the v1.0.3 documentation update
+AgentCannabis.wiki.git publishes 13 source pages through the v1.0.3 documentation update
 ```
 
 ## Evaluation evidence
@@ -95,3 +96,5 @@ Final decision: `V1_READY`.
 
 - 2026-09-06 documentation release gate: remote gh skill install from `v1.0.3` checked 18 professional wrappers: PASS; GitHub wiki source expanded to 13 pages.
 
+
+- 2026-09-06 tooling gate: scoped publish wrapper removed the false `not a git repository` warning without adding a global Git `safe.directory` entry.

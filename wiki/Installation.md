@@ -5,7 +5,7 @@ AgentCannabis can be used in two ways:
 1. as portable Agent Skills folders and root routing templates for local agent hosts
 2. as GitHub Copilot Agent Skills installed with `gh skill install`
 
-Use a release tag for stable installs. Current documented release: `v1.0.3`.
+Use a release tag for stable installs. Current documented release: `v1.0.4`.
 
 ## Prerequisites
 
@@ -27,8 +27,8 @@ gh skill install --help
 From the destination Git project:
 
 ```powershell
-gh skill preview jeremylongworth-source/AgentCannabis cannabis-compliance-specialist@v1.0.3
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.3
+gh skill preview jeremylongworth-source/AgentCannabis cannabis-compliance-specialist@v1.0.4
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
 ```
 
 Do not combine an inline `@VERSION` in the skill path with `--pin`. For release installs, keep the path as `skills/<skillset-name>` and put the release tag in `--pin`.
@@ -43,20 +43,20 @@ Use `main` only when you deliberately want the latest repository state:
 gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@main --agent github-copilot --scope project
 ```
 
-A branch install is not immutable. Prefer `v1.0.3` for reproducible use.
+A branch install is not immutable. Prefer `v1.0.4` for reproducible use.
 
 ## Use the local manifest helper
 
 From an AgentCannabis clone, preview a professional skillset install into another Git project:
 
 ```powershell
-.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.3 -Pin -WhatIf
+.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.4 -Pin -WhatIf
 ```
 
 Install after reviewing the plan:
 
 ```powershell
-.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.3 -Pin
+.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.4 -Pin
 ```
 
 The helper validates `skillsets/<name>.json`, confirms referenced local skill folders exist, and installs the self-contained wrapper by default. Add `-IncludeMembers` only when you also want every atomic member skill independently discoverable.
@@ -93,3 +93,13 @@ Expected behavior:
 - If a skill is not visible in Copilot, confirm you installed into the intended Git project and reload the host's skills list.
 - If an existing skill conflicts, preview the new version before replacing it.
 - If validation fails after local edits, run `python scripts/validate_repository.py --stage full` for the first structural error.
+
+## Publishing validation
+
+From an AgentCannabis clone, use the repository wrapper for publish dry runs:
+
+```powershell
+.\scripts\publish_skill_repository.ps1 -DryRun
+```
+
+This wrapper applies Git's `safe.directory` setting only to the `gh skill publish` process. It is safer than adding a persistent global Git trust entry for the checkout.

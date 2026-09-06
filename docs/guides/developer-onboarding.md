@@ -15,7 +15,7 @@ AgentCannabis is a skill repository, not an application server. The first useful
 python scripts/import_taxonomy.py --source "C:\Users\jerem\Desktop\Taxonomy Canadian Cannabis Skill Repositor.txt" --output docs/architecture/taxonomy-index.yaml
 python -m unittest discover -s tests -v
 python scripts/validate_repository.py --stage reference
-gh skill publish D:\AgentCannabis --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ```
 
 ## Common workflows

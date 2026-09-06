@@ -30,4 +30,4 @@ Validation requires these files to exist and route every professional skillset:
 python scripts/validate_repository.py --stage full
 ```
 
-Release `v1.0.3` includes base, full, and 18 professional routing templates.
+Release `v1.0.4` includes base, full, and 18 professional routing templates.

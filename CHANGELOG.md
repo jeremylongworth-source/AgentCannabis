@@ -2,6 +2,19 @@
 
 All notable changes to AgentCannabis are recorded here.
 
+## v1.0.4 - 2026-09-06
+
+### Changed
+
+- Added `scripts/publish_skill_repository.ps1` to run `gh skill publish` with a command-scoped Git `safe.directory` override on Windows-owned Codex checkouts.
+- Updated README and wiki publishing validation commands to use the scoped wrapper instead of requiring a persistent global Git trust entry.
+
+### Validation
+
+- `.\scripts\validate-all.ps1` passes.
+- `.\scripts\publish_skill_repository.ps1 -DryRun` completes without the false `not a git repository` warning.
+- All 18 professional skillsets install from the public `v1.0.4` tag with `gh skill install`.
+
 ## v1.0.3 - 2026-09-06
 
 ### Changed
@@ -13,7 +26,7 @@ All notable changes to AgentCannabis are recorded here.
 ### Validation
 
 - `.\scripts\validate-all.ps1` passes.
-- `gh skill publish . --dry-run` completes.
+- `.\scripts\publish_skill_repository.ps1 -DryRun` completes.
 - All 18 professional skillsets install from the public `v1.0.3` tag with `gh skill install`.
 
 ## v1.0.2 - 2026-09-06
@@ -27,7 +40,7 @@ All notable changes to AgentCannabis are recorded here.
 ### Validation
 
 - `.\scripts\validate-all.ps1` passes.
-- `gh skill publish . --dry-run` completes.
+- `.\scripts\publish_skill_repository.ps1 -DryRun` completes.
 - All 18 professional skillsets install from the public `v1.0.2` tag with `gh skill install`.
 
 ## v1.0.1 - 2026-09-06
@@ -41,7 +54,7 @@ All notable changes to AgentCannabis are recorded here.
 ### Validation
 
 - `.\scripts\validate-all.ps1` passes.
-- `gh skill publish D:\AgentCannabis --dry-run` passes with only the tag-protection advisory.
+- `.\scripts\publish_skill_repository.ps1 -DryRun` passes with only the tag-protection advisory.
 ## v1.0.0 - 2026-09-05
 
 ### Added

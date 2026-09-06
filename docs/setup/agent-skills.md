@@ -35,5 +35,5 @@ Run:
 
 ```powershell
 .\scripts\validate-all.ps1
-gh skill publish D:\AgentCannabis --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ```

@@ -2,7 +2,7 @@
 
 AgentCannabis is a public Agent Skills repository for Canadian cannabis compliance, quality, operations governance, and evidence-review workflows.
 
-Current release: `v1.0.3`. Status: `V1_READY`.
+Current release: `v1.0.4`. Status: `V1_READY`.
 
 ## What is included
 

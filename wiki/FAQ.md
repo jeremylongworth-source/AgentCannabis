@@ -6,7 +6,7 @@ No. Copilot install is supported, but AgentCannabis also includes portable skill
 
 ## Which release should I install?
 
-Use `v1.0.3` for stable installs. Use `main` only when you deliberately want the latest repository state.
+Use `v1.0.4` for stable installs. Use `main` only when you deliberately want the latest repository state.
 
 ## Do I need to install all 233 atomic skills?
 
@@ -27,3 +27,7 @@ The v1.0 taxonomy is broad. Regular generated structure keeps boundaries, metada
 ## Why JSON skillset manifests instead of AgentSkills YAML manifests?
 
 AgentCannabis uses JSON manifests because its generator and installer validate `skillsets/<name>.json`. The repository still provides AgentSkills-style routing behavior through root `agents/AGENTS.*.md` files.
+
+## Why use publish_skill_repository.ps1 for dry runs?
+
+On Windows, some Codex-created checkouts can have `.git` ownership that differs from the interactive user. GitHub CLI 2.92.0 then reports `not a git repository` during `gh skill publish` even though the dry run succeeds. The wrapper scopes `safe.directory` to that single process instead of changing global Git config.

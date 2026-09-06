@@ -26,4 +26,4 @@ Scenario files inside skill packages are specifications. They are not execution 
 
 The public release gate verifies all 18 professional skillsets with `gh skill install` from a release tag. Install success proves packaging availability, not legal correctness or future model behavior.
 
-Release `v1.0.3` validates the structural repository, source records, deterministic review gate, root routing templates, GitHub skill packaging dry run, and all 18 public professional skillset installs.
+Release `v1.0.4` validates the structural repository, source records, deterministic review gate, root routing templates, GitHub skill packaging dry run, and all 18 public professional skillset installs.

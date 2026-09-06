@@ -38,14 +38,14 @@ The following checks passed after the changes:
 .\scriptsalidate-all.ps1
 All AgentCannabis validation checks passed.
 
-gh skill publish . --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 Dry run complete
 
 gh skill install jeremylongworth-source/AgentCannabis skills/<professional-skillset> --agent github-copilot --scope project --pin v1.0.2
 18 professional skillsets installed from the public tag
 ```
 
-`gh skill publish --dry-run` succeeds, but this GitHub CLI build emits a generic Windows checkout warning: `not a git repository. Initialize with: git init && gh repo create`. Git itself resolves the checkout correctly, and public tagged installs pass for every professional skillset.
+Direct `gh skill publish --dry-run` can emit a false Windows ownership warning when the checkout owner differs from the interactive user. Use `scripts/publish_skill_repository.ps1 -DryRun` to scope Git's `safe.directory` override to the publish process. Public tagged installs pass for every professional skillset.
 
 ## Remaining difference from peers
 

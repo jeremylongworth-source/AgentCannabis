@@ -20,7 +20,7 @@ Read `CONTRIBUTING.md`, `AGENTS.md`, `docs/architecture/scope-boundaries.md`, `d
 
 ```powershell
 .\scriptsalidate-all.ps1
-gh skill publish . --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ```
 
 A good pull request states what changed, which skills or docs are affected, what safety boundary was considered, what validation was run, and whether source-currentness or applicability changed.

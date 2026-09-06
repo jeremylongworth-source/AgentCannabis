@@ -7,7 +7,7 @@ The JSON manifest under `skillsets/<skillset-name>.json` records the wrapper and
 ## Install example
 
 ```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.3
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
 ```
 
 ## Professional role packages
