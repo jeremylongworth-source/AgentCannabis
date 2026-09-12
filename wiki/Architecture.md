@@ -59,8 +59,8 @@ GitHub CLI can preview and install a release-tagged skill folder. The example
 below targets GitHub Copilot, while the CLI supports other Agent Skills hosts:
 
 ```powershell
-gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.4
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
+gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.5
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.5
 ```
 
 ## Review model

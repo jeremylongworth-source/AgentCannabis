@@ -40,7 +40,7 @@ The public release gate verifies all 18 professional skillsets with
 success proves packaging availability and discoverability; it does not prove
 legal correctness, current source applicability, or future model behavior.
 
-Release `v1.0.4` records passing structural validation, source records,
+Release `v1.0.5` records passing structural validation, source records,
 deterministic review gates, root routing templates, GitHub skill packaging dry
 run, and all 18 public professional skillset installs.
 

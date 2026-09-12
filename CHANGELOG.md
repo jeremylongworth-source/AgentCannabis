@@ -2,7 +2,7 @@
 
 All notable changes to AgentCannabis are recorded here.
 
-## Unreleased
+## v1.0.5 - 2026-09-12
 
 ### Changed
 
@@ -19,6 +19,8 @@ All notable changes to AgentCannabis are recorded here.
 - `.\scripts\validate-all.ps1` passes.
 - `.\scripts\publish_skill_repository.ps1 -DryRun` completes with only the
   GitHub tag-protection advisory.
+- All 18 professional skillsets install from the public `v1.0.5` tag with
+  `gh skill install`.
 
 ## v1.0.4 - 2026-09-06
 

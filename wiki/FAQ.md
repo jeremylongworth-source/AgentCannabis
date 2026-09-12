@@ -9,7 +9,7 @@ choose the host value supported by your installed CLI.
 
 ## Which release should I install?
 
-Use `v1.0.4` for stable, reproducible installs. Use `main` only when you
+Use `v1.0.5` for stable, reproducible installs. Use `main` only when you
 deliberately want the latest development state. Preview a release before
 installing it.
 

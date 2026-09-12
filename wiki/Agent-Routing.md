@@ -52,4 +52,4 @@ Validate that every professional package has a routing file:
 python scripts/validate_repository.py --stage full
 ```
 
-Release `v1.0.4` includes base, full, and 18 focused routing templates.
+Release `v1.0.5` includes base, full, and 18 focused routing templates.

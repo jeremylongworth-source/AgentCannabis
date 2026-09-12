@@ -5,7 +5,7 @@ professional role package or an atomic skill with GitHub CLI, or load the
 repository folders directly in a local agent host.
 
 Use a release tag for a reproducible installation. The current documented
-release is `v1.0.4`.
+release is `v1.0.5`.
 
 ## Prerequisites
 
@@ -27,8 +27,8 @@ Run these commands from the destination project. The path is an exact folder
 inside the public repository, which avoids a full repository skill scan:
 
 ```powershell
-gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.4
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
+gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.5
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.5
 ```
 
 The example targets GitHub Copilot. `gh skill install` supports other hosts;
@@ -40,7 +40,7 @@ user-wide availability.
 Do not combine an inline `@VERSION` with `--pin`. Put the ref in one place:
 
 ```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.4 --agent github-copilot --scope project
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.5 --agent github-copilot --scope project
 ```
 
 For development content, replace the tag with `@main`; a branch is mutable
@@ -51,8 +51,8 @@ and should not be used when reproducibility matters.
 Choose a folder name from the [Taxonomy](Taxonomy) page or `skills/` directory:
 
 ```powershell
-gh skill preview jeremylongworth-source/AgentCannabis skills/build-crop-monitoring-plan@v1.0.4
-gh skill install jeremylongworth-source/AgentCannabis skills/build-crop-monitoring-plan --agent github-copilot --scope project --pin v1.0.4
+gh skill preview jeremylongworth-source/AgentCannabis skills/build-crop-monitoring-plan@v1.0.5
+gh skill install jeremylongworth-source/AgentCannabis skills/build-crop-monitoring-plan --agent github-copilot --scope project --pin v1.0.5
 ```
 
 Atomic skills are useful for narrow tasks. Start with a professional wrapper
@@ -65,8 +65,8 @@ professional manifest and installs the self-contained wrapper into another Git
 project:
 
 ```powershell
-.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.4 -Pin -WhatIf
-.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.4 -Pin
+.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.5 -Pin -WhatIf
+.\scripts\install_skillset.ps1 -Skillset cannabis-compliance-specialist -ProjectPath D:\MyProject -Ref v1.0.5 -Pin
 ```
 
 Add `-IncludeMembers` only when the destination host should discover every

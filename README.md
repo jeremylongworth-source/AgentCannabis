@@ -4,7 +4,7 @@ Portable Agent Skills for bounded Canadian cannabis compliance, quality,
 operations-governance, and evidence-review workflows.
 
 [GitHub repository](https://github.com/jeremylongworth-source/AgentCannabis) ·
-[current public tag](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.4) ·
+[current public tag](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.5) ·
 [GitHub wiki](https://github.com/jeremylongworth-source/AgentCannabis/wiki) ·
 [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
 
@@ -19,7 +19,7 @@ project routing files.
 
 | Item | Current state |
 | --- | --- |
-| Current public tag | [`v1.0.4`](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.4) |
+| Current public tag | [`v1.0.5`](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.5) |
 | Readiness | `V1_READY` for repository and public distribution requirements |
 | Atomic skills | 233 across 18 frozen taxonomy families |
 | Professional skillsets | 18 self-contained role packages |
@@ -81,8 +81,8 @@ Requirements are Git, a destination Git project, and GitHub CLI with
 `gh skill` support. Run the install from the destination project:
 
 ```powershell
-gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.4
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
+gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.5
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.5
 ```
 
 The example targets GitHub Copilot. `gh skill install` also supports other
