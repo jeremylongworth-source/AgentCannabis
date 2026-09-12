@@ -7,7 +7,7 @@ Status: `V1_READY`.
 - Local repository: `D:\AgentCannabis`
 - GitHub repository: `https://github.com/jeremylongworth-source/AgentCannabis`
 - Default branch: `main`
-- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`, `v1.0.3`, `v1.0.4`
+- Public release tags used for install verification: `v1.0.0`, `v1.0.1`, `v1.0.2`, `v1.0.3`, `v1.0.4`, `v1.0.5`
 - Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
 
 ## Roadmap result
@@ -50,6 +50,7 @@ remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.1 chec
 remote gh skill install from jeremylongworth-source/AgentCannabis at main checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.3 checked 18 professional wrappers: PASS
 remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.4 checked 18 professional wrappers: PASS
+remote gh skill install from jeremylongworth-source/AgentCannabis at v1.0.5 checked 18 professional wrappers: PASS
 ```
 
 GitHub state verified:
@@ -64,7 +65,7 @@ Wiki enabled: true
 Wiki publication passed:
 
 ```text
-AgentCannabis.wiki.git publishes 13 source pages through the v1.0.3 documentation update
+AgentCannabis.wiki.git publishes 13 source pages through the v1.0.5 documentation update
 ```
 
 ## Evaluation evidence
@@ -98,3 +99,5 @@ Final decision: `V1_READY`.
 
 
 - 2026-09-06 tooling gate: scoped publish wrapper removed the false `not a git repository` warning without adding a global Git `safe.directory` entry.
+
+- 2026-09-12 public documentation gate: README and 13 wiki source pages were overhauled, current public references moved to `v1.0.5`, and all 18 professional wrappers installed from the public tag: PASS.
