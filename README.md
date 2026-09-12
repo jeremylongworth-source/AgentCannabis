@@ -1,174 +1,217 @@
 # AgentCannabis
 
-AgentCannabis is a public Agent Skills repository for Canadian cannabis compliance, quality, operations governance, and evidence-review workflows. It packages a frozen Master Taxonomy v1.0 of 233 atomic skills into 251 installable skill folders, including 18 professional role skillsets.
+Portable Agent Skills for bounded Canadian cannabis compliance, quality,
+operations-governance, and evidence-review workflows.
 
-AgentCannabis is designed for agents that can read local skill folders, project routing files, or GitHub Copilot Agent Skills. GitHub Copilot is a supported distribution path, not the whole product.
+[GitHub repository](https://github.com/jeremylongworth-source/AgentCannabis) ·
+[current public tag](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.4) ·
+[GitHub wiki](https://github.com/jeremylongworth-source/AgentCannabis/wiki) ·
+[Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
 
-## Current release
+AgentCannabis gives an AI agent structured ways to review records, identify
+missing evidence, preserve source limits, and prepare a handoff for the
+responsible human or qualified professional. It is a portable Agent Skills
+repository. GitHub Copilot is one supported distribution path; the same
+packages can be loaded by local agent hosts that understand skill folders or
+project routing files.
 
-- Release: `v1.0.4`
-- Repository: `https://github.com/jeremylongworth-source/AgentCannabis`
-- Status: `V1_READY`
-- Atomic skills: 233
-- Professional skillsets: 18
-- Installable skill folders: 251
-- Wiki: `https://github.com/jeremylongworth-source/AgentCannabis/wiki`
+## Release status
 
-The roadmap is complete on `main`, the repository is public, the GitHub wiki is published, and all 18 professional skillsets are installable from the public release tag with `gh skill install`.
+| Item | Current state |
+| --- | --- |
+| Current public tag | [`v1.0.4`](https://github.com/jeremylongworth-source/AgentCannabis/tree/v1.0.4) |
+| Readiness | `V1_READY` for repository and public distribution requirements |
+| Atomic skills | 233 across 18 frozen taxonomy families |
+| Professional skillsets | 18 self-contained role packages |
+| Installable skill folders | 251 (233 atomic skills plus 18 wrappers) |
+| Public distribution | GitHub repository, wiki, and release-tag installs verified |
 
-## What AgentCannabis does
+The readiness decision is documented in [the final audit](docs/development/CC-39-final-audit.md).
+`V1_READY` describes repository, validation, documentation, and distribution
+evidence. It does not grant legal, regulatory, QAP, engineering, tax, filing,
+lot-release, or site-operating authority.
 
-AgentCannabis helps an AI agent produce bounded review artifacts such as:
+## Who this is for
 
-- licence, role, site-area, product-authority, and activity-authority evidence reviews
-- cannabis quality-system and GPP record checks
-- lot, batch, inventory, CTLS-readiness, complaint, recall, and adverse-reaction evidence packages
-- cultivation, post-harvest, processing, preventive-control, and quality-control record gap reviews
-- source-currentness checks that separate access date, consolidation date, amendment date, effective date, and applicability
-- responsible-human handoff briefs for regulated decisions
+- Canadian licensed producers and cannabis teams that need review-ready
+  evidence packages.
+- Quality, compliance, cultivation, post-harvest, processing, inventory, and
+  operations professionals who need structured handoffs.
+- AI-agent builders who want portable, source-aware skills with explicit
+  approval and safety boundaries.
+- Maintainers and evaluators who need deterministic validation, scenarios, and
+  release evidence around an Agent Skills repository.
 
-Every skill is structured to separate known facts, assumptions, missing evidence, source limits, risk routes, and next responsible reviewer actions.
+## What it covers
 
-## What AgentCannabis does not do
+The repository supports bounded review work such as:
 
-AgentCannabis provides review assistance only. It does not authorize cannabis production, legal compliance, QAP approval, lot release, CTLS or CRA filing, pesticide use, engineering operation, hazardous extraction, pressure tuning, bypass activity, record concealment, signatures, submissions, or professional sign-off.
+- licence, role, site-area, product-authority, and activity-authority evidence
+  reviews;
+- GPP, quality-system, training, CAPA, sanitation, and document-control
+  record checks;
+- cultivation, post-harvest, drying, curing, processing, preventive-control,
+  and quality-control evidence reviews;
+- lot, batch, inventory, CTLS-readiness, complaint, recall, and
+  adverse-reaction evidence packages;
+- source-currentness checks that distinguish access, consolidation,
+  amendment, effective, and applicability dates; and
+- responsible-human handoff briefs that state known facts, missing evidence,
+  uncertainty, and the next review owner.
 
-Requests for regulated decisions or unsafe operational instructions are routed to bounded evidence review and qualified human review.
+## Boundaries
+
+AgentCannabis provides review assistance. It does not authorize or perform
+cannabis production, legal compliance, QAP approval, lot release, CTLS or CRA
+filing, pesticide use, engineering operation, hazardous extraction, pressure
+tuning, bypass activity, record concealment, signatures, submissions, or
+professional sign-off.
+
+When a request crosses a boundary, the skills redirect to a bounded evidence
+review with source limits, risk routing, and qualified-human next steps. Read
+[Safety Boundaries](wiki/Safety-Boundaries.md) and
+[Prohibited Capabilities](docs/architecture/prohibited-capabilities.md) before
+using the packages for regulated work.
 
 ## Quick start
 
-Clone the repository:
+### Install a professional skillset
+
+Requirements are Git, a destination Git project, and GitHub CLI with
+`gh skill` support. Run the install from the destination project:
 
 ```powershell
-git clone https://github.com/jeremylongworth-source/AgentCannabis.git
-cd AgentCannabis
+gh skill preview jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist@v1.0.4
+gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
 ```
 
-Run the repository validation gate:
+The example targets GitHub Copilot. `gh skill install` also supports other
+Agent Skills hosts; choose the host documented by your installed GitHub CLI.
+Use a release tag for reproducible installs and `main` only when you want the
+moving development branch. See the [installation guide](docs/guides/copilot-installation.md)
+for atomic skills, user scope, pinning, verification, and troubleshooting.
+
+### Load the portable packages locally
+
+For a local agent host that reads project instructions:
+
+1. Start with `agents/AGENTS.base.md`, `agents/AGENTS.full.md`, or the focused
+   `agents/AGENTS.<skillset-name>.md` template.
+2. Load the selected `skills/<name>/SKILL.md`.
+3. Load its references only when the task requires them.
+4. Preserve source-currentness limits and human-approval boundaries.
+
+See [Agent Skills setup](docs/setup/agent-skills.md) and
+[Agent Routing](wiki/Agent-Routing.md) for the portable path.
+
+### Try a first review
+
+Use fictional records after installation or local loading:
+
+```text
+Use $cannabis-compliance-specialist to review this fictional licensed-site
+package for missing licence, role, inventory, quality, and source-currentness
+evidence. Do not approve, sign, submit, release, or operate anything. Return a
+bounded evidence review with gaps and responsible-human next steps.
+```
+
+A useful result identifies the selected workflows, preserves missing evidence,
+states source limits, and separates review assistance from decisions reserved
+for an authorized human or qualified professional.
+
+## Professional skillsets
+
+Professional packages are role-level wrappers around the 233 atomic skills.
+Each wrapper is self-contained under `skills/<skillset-name>/`, with a matching
+manifest in `skillsets/`, bundled references, scenarios, and `agents/openai.yaml`
+metadata.
+
+| Skillset | Primary focus |
+| --- | --- |
+| `cannabis-compliance-specialist` | licence, role, product, inventory, reporting, complaints, safety, and audit evidence |
+| `cannabis-operations-manager` | end-to-end operational governance, quality systems, inventory, post-market, and safety escalation |
+| `cannabis-processing-technician` | processing records, material intake, batch records, controls, and deviations |
+| `cannabis-production-manager` | cross-stage production evidence, resource and deviation review, and inventory impacts |
+| `cannabis-quality-systems-specialist` | quality systems, document control, training, CAPA, product quality, and post-market evidence |
+| `controlled-environment-cultivation-specialist` | environmental monitoring, trend review, sensor coverage, and escalation |
+| `ctls-inventory-specialist` | inventory reconciliation, CTLS readiness, loss/theft, destruction, and discrepancy review |
+| `cultivation-manager-support` | cultivation governance, capacity, deviations, role evidence, and safety escalation |
+| `cultivation-technician` | daily cultivation record review, monitoring gaps, and escalation packages |
+| `drying-curing-specialist` | drying, curing, moisture, water activity, storage, and microbial-risk evidence |
+| `master-grower-support` | crop-cycle evidence, plant health, environment records, and production variance review |
+| `plant-health-specialist` | plant-health evidence, pest/disease observations, treatment records, and quality handoff |
+| `post-harvest-manager` | post-harvest control, holds, quality packages, inventory, deviations, and complaints |
+| `post-harvest-technician` | harvest identity, intake, handling, drying, curing, and quality-record gaps |
+| `preventive-controls-specialist` | hazard analysis, process controls, corrective actions, and safety escalation |
+| `processing-manager-support` | processing authority, flow, yield reconciliation, hazard routing, GPP controls, and inventory review |
+| `qap-support` | QAP responsibility evidence, quality systems, product records, complaints, recalls, holds, and adverse-reaction packages |
+| `quality-control-specialist` | sampling, COA review, OOS evidence, specifications, and release-package support |
+
+See [skillsets/README.md](skillsets/README.md) for the complete composition
+index and [the Skillsets wiki page](wiki/Skillsets.md) for routing guidance.
+
+## How the repository is organized
+
+| Path | Purpose |
+| --- | --- |
+| `skills/` | 233 atomic skills and 18 professional wrappers |
+| `skillsets/` | Professional composition manifests and package index |
+| `agents/` | AgentSkills-style base, full, and focused routing templates |
+| `catalog/` | Curated profile inputs used by generators |
+| `sources/` | Machine-readable source registry snapshots |
+| `docs/architecture/` | Taxonomy, scope, licence, role, activity, and hazard contracts |
+| `docs/standards/` | Authoring, evidence, source, output, testing, and evaluation standards |
+| `docs/development/` | Wave status, audit evidence, evaluations, and peer review |
+| `docs/setup/` and `docs/guides/` | Portable setup, Copilot installation, and maintainer guidance |
+| `scripts/` | Build, metadata, routing, install, publish, and validation tools |
+| `tests/` | Deterministic review-gate tests and fictional fixtures |
+| `wiki/` | Version-controlled source pages for the GitHub wiki |
+
+## Validation and evidence
+
+From a local clone, run the complete validation gate:
 
 ```powershell
 .\scripts\validate-all.ps1
 ```
 
-Preview GitHub skill packaging with the repository wrapper:
+The gate runs structural validation, source-link validation, and deterministic
+review-gate tests. Before publishing a skill repository, preview packaging
+with the repository wrapper:
 
 ```powershell
 .\scripts\publish_skill_repository.ps1 -DryRun
 ```
 
-The wrapper scopes Git's `safe.directory` setting to this command only. It avoids the Windows dubious-ownership warning without changing global Git config.
+The wrapper applies Git's `safe.directory` setting only to the publish process
+when needed on Windows-owned checkouts. It does not change global Git config.
 
-Install a published professional skillset into a Git project for GitHub Copilot:
+Evaluation reports under `docs/development/evaluations/` distinguish scenario
+specifications, captured forward tests, integrated workflows, adversarial
+checks, and public install evidence. Passing installation proves packaging
+availability; it does not prove legal correctness or future model behavior.
 
-```powershell
-gh skill install jeremylongworth-source/AgentCannabis skills/cannabis-compliance-specialist --agent github-copilot --scope project --pin v1.0.4
-```
+## Documentation map
 
-For non-Copilot local agent hosts, start with one of the root routing templates in `agents/`, then load the selected skill folder from `skills/`.
-
-## First useful prompt
-
-After installing or loading `cannabis-compliance-specialist`, test with fictional records:
-
-```text
-Use $cannabis-compliance-specialist to review this fictional licensed-site package for missing licence, role, inventory, quality, and source-currentness evidence. Do not approve or submit anything. Return a bounded evidence review with gaps and responsible-human next steps.
-```
-
-A good response should identify the selected member workflows, preserve missing evidence, avoid legal or QAP sign-off, and clearly state what must be reverified against current primary sources.
-
-## Professional skillsets
-
-| Skillset | Focus |
-| --- | --- |
-| `cannabis-compliance-specialist` | licence, role, product, inventory, reporting, complaints, safety, and audit evidence |
-| `cannabis-operations-manager` | end-to-end operational governance, compliance evidence, quality systems, inventory, post-market, and safety escalation |
-| `cannabis-processing-technician` | processing records, material intake, batch records, control measures, and deviation evidence |
-| `cannabis-production-manager` | cross-stage production evidence, resource and deviation review, hazard escalation, records, and inventory impacts |
-| `cannabis-quality-systems-specialist` | quality-system records, document control, training, CAPA, product quality, and post-market evidence |
-| `controlled-environment-cultivation-specialist` | environmental monitoring evidence, trend review, sensor coverage, and qualified escalation |
-| `ctls-inventory-specialist` | inventory reconciliation, CTLS readiness, loss/theft packages, destruction records, and discrepancy review |
-| `cultivation-manager-support` | cultivation governance, capacity, deviations, people/role evidence, and safety escalation |
-| `cultivation-technician` | daily cultivation record review, monitoring gaps, crop observations, and escalation packages |
-| `drying-curing-specialist` | drying, curing, moisture, water activity, storage, and microbial-risk evidence review |
-| `master-grower-support` | crop-cycle evidence, plant health, environment records, and production variance review without optimization instructions |
-| `plant-health-specialist` | plant-health evidence, pest/disease observations, treatment records, and quality trend handoff |
-| `post-harvest-manager` | post-harvest workflow control, holds, quality packages, inventory, deviations, and complaints |
-| `post-harvest-technician` | harvest identity, intake, handling, drying, curing, and quality-record gaps |
-| `preventive-controls-specialist` | hazard analysis, process controls, corrective actions, SOP execution, and safety escalation |
-| `processing-manager-support` | processing authority, flow, yield reconciliation, hazard routing, GPP controls, and inventory review |
-| `qap-support` | QAP responsibility evidence, quality systems, product records, complaints, recalls, holds, and adverse-reaction packages |
-| `quality-control-specialist` | sampling, COA review, OOS evidence, specifications, product quality records, and release package support |
-
-Each professional skillset is a self-contained skill under `skills/<skillset-name>/` with a matching manifest under `skillsets/<skillset-name>.json`, bundled member index, source snapshot, scenario specifications, and `agents/openai.yaml` metadata.
-
-See [skillsets/README.md](skillsets/README.md) and the [Skillsets wiki page](wiki/Skillsets.md) for member counts and role-level routing.
-
-## Portable agent routing
-
-The root `agents/` directory follows the AgentSkills-style project routing convention:
-
-- `agents/AGENTS.base.md`: base routing and safety boundaries
-- `agents/AGENTS.full.md`: full AgentCannabis routing across all professional skillsets
-- `agents/AGENTS.<skillset>.md`: focused routing for one professional role
-
-These files let Codex-style and local-agent workflows use AgentCannabis without installing through GitHub Copilot.
-
-## Repository structure
-
-| Path | Purpose |
-| --- | --- |
-| `skills/` | 233 atomic skills and 18 professional skillset wrappers |
-| `skillsets/` | Professional composition manifests and skillset README |
-| `agents/` | AgentSkills-style routing templates |
-| `catalog/` | Authored profile inputs used by builders |
-| `sources/` | Machine-readable source registry snapshots |
-| `docs/architecture/` | Taxonomy, scope, licence, role, activity, and hazard contracts |
-| `docs/standards/` | Authoring, evidence, source, output, testing, and evaluation standards |
-| `docs/development/` | Roadmap evidence, audit trail, evaluation reports, and peer consistency review |
-| `docs/setup/` | Portable Agent Skills setup guidance |
-| `docs/guides/` | Copilot installation and developer onboarding guides |
-| `scripts/` | Import, build, install, metadata, routing-template, and validation tools |
-| `tests/` | Deterministic review-gate tests |
-| `wiki/` | Source pages for the GitHub wiki |
-
-## Validation and evidence
-
-Run the supported validation wrapper from the repository root:
-
-```powershell
-.\scripts\validate-all.ps1
-```
-
-The wrapper runs full structural validation, source metadata validation, and deterministic review-gate tests.
-
-The release evidence also includes forward, integrated, adversarial, install, and peer consistency reports under `docs/development/`.
-
-## Documentation
-
-Start here:
-
-- [Agent Skills setup](docs/setup/agent-skills.md)
-- [Copilot installation guide](docs/guides/copilot-installation.md)
-- [Developer onboarding](docs/guides/developer-onboarding.md)
-- [Master taxonomy](docs/architecture/master-taxonomy-v1.md)
-- [Acceptance criteria](docs/development/acceptance-criteria.md)
-- [Final audit](docs/development/CC-39-final-audit.md)
-- [GitHub wiki source](wiki/Home.md)
-
-## Roadmap status
-
-The roadmap is tracked in [ROADMAP.md](ROADMAP.md) and [docs/development/wave-status.json](docs/development/wave-status.json). A wave is treated as ready only when its evidence, limits, and next maintenance action are recorded.
-
-`V1_READY` means the repository roadmap and distribution requirements are complete. It does not mean the skills provide legal advice, engineering approval, QAP approval, lot release, filing authorization, or site-specific compliance certification.
+- [GitHub wiki](https://github.com/jeremylongworth-source/AgentCannabis/wiki) — guided orientation for users and maintainers.
+- [Wiki source](wiki/Home.md) — version-controlled wiki pages.
+- [Master Taxonomy v1.0](docs/architecture/master-taxonomy-v1.md) — the frozen 233-skill authority.
+- [Acceptance criteria](docs/development/acceptance-criteria.md) — release requirements and evidence.
+- [Final audit](docs/development/CC-39-final-audit.md) — current readiness decision and limitations.
+- [Roadmap](ROADMAP.md) — development authority and wave contracts.
+- [Developer onboarding](docs/guides/developer-onboarding.md) — generator and validation workflow.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding or changing skills. Contributions must preserve the frozen 233-skill Master Taxonomy v1.0, self-contained skill packages, current-source limits, human approval boundaries, fictional test fixtures, structural validation, and review-gate coverage.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before changing skills, generators,
+source records, or public documentation. Contributions must preserve the
+frozen taxonomy, self-contained packages, current-source limits, human-
+authority boundaries, fictional fixtures, and validation coverage.
 
-## Security and safety
-
-Report security issues through [SECURITY.md](SECURITY.md). Do not include real commercial cannabis records, secrets, licence credentials, CTLS credentials, CRA credentials, signatures, or confidential regulated-site data in issues, tests, examples, or pull requests.
+Use [SECURITY.md](SECURITY.md) for security or safety-sensitive reports. Do
+not publish secrets, credentials, signatures, live regulated-site records, or
+confidential commercial data in issues, tests, examples, or pull requests.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+AgentCannabis is licensed under the [MIT License](LICENSE).

@@ -2,6 +2,24 @@
 
 All notable changes to AgentCannabis are recorded here.
 
+## Unreleased
+
+### Changed
+
+- Reworked the README around audience, package model, portable installation,
+  first-use guidance, boundaries, validation, and evidence links.
+- Expanded the wiki with professional installation, architecture, routing,
+  evaluation, maintenance, contribution, and troubleshooting guidance.
+- Corrected public documentation commands to use the scoped publish wrapper and
+  removed local-machine paths from maintainer-facing setup examples.
+
+### Validation
+
+- `python .verification/check_public_docs.py` passes.
+- `.\scripts\validate-all.ps1` passes.
+- `.\scripts\publish_skill_repository.ps1 -DryRun` completes with only the
+  GitHub tag-protection advisory.
+
 ## v1.0.4 - 2026-09-06
 
 ### Changed

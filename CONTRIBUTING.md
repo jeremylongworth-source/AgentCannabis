@@ -16,7 +16,7 @@ Run the reference checks before proposing changes:
 ```powershell
 python -m unittest discover -s tests -v
 python scripts/validate_repository.py --stage reference
-gh skill publish D:\AgentCannabis --dry-run
+.\scripts\publish_skill_repository.ps1 -DryRun
 ```
 
 Run the full check before release once all skills and professional skillsets exist:

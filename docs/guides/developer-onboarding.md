@@ -12,7 +12,7 @@ AgentCannabis is a skill repository, not an application server. The first useful
 ## First run
 
 ```powershell
-python scripts/import_taxonomy.py --source "C:\Users\jerem\Desktop\Taxonomy Canadian Cannabis Skill Repositor.txt" --output docs/architecture/taxonomy-index.yaml
+python scripts/import_taxonomy.py --source "D:\Sources\Taxonomy Canadian Cannabis Skill Repositor.txt" --output docs/architecture/taxonomy-index.yaml
 python -m unittest discover -s tests -v
 python scripts/validate_repository.py --stage reference
 .\scripts\publish_skill_repository.ps1 -DryRun
@@ -35,7 +35,7 @@ python scripts/validate_repository.py --stage full
 Install a skill locally for inspection:
 
 ```powershell
-gh skill install D:\AgentCannabis build-crop-monitoring-plan --from-local --dir D:\AgentCannabis\.verification\copilot-install
+gh skill install D:\Path\To\AgentCannabis build-crop-monitoring-plan --from-local --dir D:\Path\To\AgentCannabis\.verification\copilot-install
 ```
 
 ## Key files
@@ -54,7 +54,7 @@ If GitHub CLI cannot see the repository under elevated execution, pass a process
 ```powershell
 $env:GIT_CONFIG_COUNT='1'
 $env:GIT_CONFIG_KEY_0='safe.directory'
-$env:GIT_CONFIG_VALUE_0='D:/AgentCannabis'
+$env:GIT_CONFIG_VALUE_0='D:/Path/To/AgentCannabis'
 ```
 
 If a legal source was accessed successfully, still verify its currentness before a site-specific conclusion. Access date is not the same as law currentness.

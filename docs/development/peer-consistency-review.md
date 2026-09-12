@@ -35,7 +35,7 @@ AgentCannabis was complete against its original roadmap and GitHub Copilot distr
 The following checks passed after the changes:
 
 ```text
-.\scriptsalidate-all.ps1
+.\scripts\validate-all.ps1
 All AgentCannabis validation checks passed.
 
 .\scripts\publish_skill_repository.ps1 -DryRun
