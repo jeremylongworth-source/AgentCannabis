@@ -2,7 +2,7 @@
 
 Install one professional skillset to give Copilot its role-specific workflow and bundled member references. AgentCannabis skills are portable Agent Skills; this page documents the GitHub Copilot distribution path. Each skillset is a self-contained skill under `skills/<skillset-name>/`; its JSON manifest in `skillsets/` describes the composition. Atomic skills can also be installed separately.
 
-These instructions use `cultivation-technician` as an example. Choose another name from the [skillset manifests](../../skillsets/). Development examples select `main` explicitly. For a release, replace `TAG` with an actual tag from [GitHub Releases](https://github.com/jeremylongworth-source/AgentCannabis/releases).
+These instructions use `cultivation-technician` as an example. Choose another name from the [skillset manifests](../../skillsets/). Development examples select `main` explicitly. For a stable install, replace `TAG` with an actual public tag from the repository's [tags](https://github.com/jeremylongworth-source/AgentCannabis/tags).
 
 ## Requirements
 
